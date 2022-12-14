@@ -1,5 +1,5 @@
 <template>
-  <div class="text-center">LOADING ...</div>
+  <div>R3 splash here</div>
 </template>
 
 <script setup></script>

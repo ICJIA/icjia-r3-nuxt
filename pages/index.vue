@@ -1,12 +1,16 @@
 <template>
-  <NuxtLayout name="home">
-    <div v-if="data && isMounted">
-      <ContentDoc :key="data?.title" :value="data" class="markdown-body mt-12">
-        <template #empty>Document not found</template>
-        <template #not-found>Document not found</template>
-      </ContentDoc>
-    </div>
-  </NuxtLayout>
+  <div v-if="data && isMounted">
+    <ContentDoc :key="data?.title" :value="data" class="markdown-body mt-12">
+      <template #empty>Document not found</template>
+      <template #not-found>Document not found</template>
+    </ContentDoc>
+    <v-container fluid>
+      <v-row>
+        <v-col cols="12" md="6"> Tool boxes here </v-col>
+        <v-col cols="12" md="6"> News here </v-col></v-row
+      ></v-container
+    >
+  </div>
 </template>
 
 <script setup>

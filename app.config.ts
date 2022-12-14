@@ -3,7 +3,7 @@ export default defineAppConfig({
   description: "R3 description.",
   api: "https://r3.icjia-api.cloud",
   root: "https://r3.icjia.dev",
-  isTranslationEnabled: true,
+  isTranslationEnabled: false,
   footerMenu: [
     {
       main: "Home",
