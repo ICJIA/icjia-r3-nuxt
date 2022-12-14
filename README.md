@@ -44,4 +44,3 @@ yarn build
 _Netlify will automatically deploy the live site when changes are pushed to the master branch._
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
-# icjia-r3-nuxt
