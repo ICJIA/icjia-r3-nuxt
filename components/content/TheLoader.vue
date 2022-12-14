@@ -1,5 +1,5 @@
 <template>
-  <div class="text-center">LOADING ...</div>
+  <div class="text-center">LOADING <img src="/loading.gif" /></div>
 </template>
 
 <script setup></script>

@@ -17,7 +17,7 @@ const redirect = () => {
 
 <template>
   <div>
-    <v-container fluid
+    <v-container
       ><v-row
         ><v-col>
           <div v-if="data" class="mt-6">

@@ -4,16 +4,6 @@ export default defineAppConfig({
   api: "https://r3.icjia-api.cloud",
   root: "https://r3.icjia.dev",
   isTranslationEnabled: false,
-  footerMenu: [
-    {
-      main: "Home",
-      link: "/",
-    },
-    {
-      main: "About",
-      link: "/about",
-    },
-  ],
 
   navMenu: [
     {
@@ -24,6 +14,32 @@ export default defineAppConfig({
     {
       main: "About",
       link: "/about",
+    },
+  ],
+  footerMenu: [
+    {
+      main: "Home",
+      link: "/",
+    },
+    {
+      main: "About",
+      link: "/about",
+    },
+    {
+      main: "Board",
+      link: "/board",
+    },
+    {
+      main: "Eligibility",
+      link: "/eligibility",
+    },
+    {
+      main: "Collaboratives",
+      link: "/collaboratives",
+    },
+    {
+      main: "Search",
+      link: "/search",
     },
   ],
 });
