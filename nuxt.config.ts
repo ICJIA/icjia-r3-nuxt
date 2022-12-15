@@ -16,7 +16,13 @@ export default defineNuxtConfig({
           content: "R3 description here.",
         },
       ],
-      link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+      link: [
+        { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+        {
+          rel: "stylesheet",
+          href: "https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@400;500;700;900&display=swap",
+        },
+      ],
       script: [
         // {
         //   src: "https://code.jquery.com/jquery-3.6.1.slim.min.js",
