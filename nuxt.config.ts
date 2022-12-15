@@ -35,6 +35,7 @@ export default defineNuxtConfig({
   build: {
     transpile: ["vuetify"],
   },
+
   vite: {},
   runtimeConfig: {
     // The private keys which are only available within server-side
