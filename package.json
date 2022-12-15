@@ -12,7 +12,7 @@
     "create:markdown": "node ./creators/createMarkdown.js",
     "create:sitemap": "node ./creators/createSitemap.mjs",
     "dev": "yarn scripts && nuxt dev --port=8000 -o",
-    "generate": "yarn scripts && nuxt generate",
+    "generate": "yarn scripts && nuxi generate",
     "generate:serve": "yarn scripts && nuxt generate && serve ./dist",
     "preview": "nuxt preview",
     "scripts": "yarn create:markdown && yarn create:sitemap",

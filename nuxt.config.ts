@@ -76,26 +76,26 @@ export default defineNuxtConfig({
       anchorLinks: false,
     },
   },
-  googleFonts: {
-    inject: true,
-    download: true,
-    display: "swap",
-    prefetch: true,
-    families: {
-      Roboto: {
-        wght: [100, 400, 700, 900],
-        ital: [100],
-      },
-      Lato: {
-        wght: [100, 300, 400, 700, 900],
-        ital: [100],
-      },
-      Raleway: {
-        wght: [100, 400, 900],
-        ital: [100],
-      },
-    },
-  },
+  // googleFonts: {
+  //   inject: true,
+  //   download: true,
+  //   display: "swap",
+  //   prefetch: true,
+  //   families: {
+  //     Roboto: {
+  //       wght: [100, 400, 700, 900],
+  //       ital: [100],
+  //     },
+  //     Lato: {
+  //       wght: [100, 300, 400, 700, 900],
+  //       ital: [100],
+  //     },
+  //     Raleway: {
+  //       wght: [100, 400, 900],
+  //       ital: [100],
+  //     },
+  //   },
+  // },
 
   image: {
     // The screen sizes predefined by `@nuxt/image`:
