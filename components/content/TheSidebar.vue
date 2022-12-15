@@ -16,7 +16,10 @@
               <template #activator="{ props }">
                 <v-list-item
                   v-bind="props"
-                  style="font-weight: 900 !important"
+                  style="
+                    font-weight: 900 !important;
+                    font-family: Roboto, sans-serif !important;
+                  "
                   >{{ menu.main }}</v-list-item
                 >
               </template>
@@ -24,7 +27,12 @@
               <div v-for="(child, i) in menu.children" :key="`main-${i}`">
                 <v-list-item
                   v-if="child.section"
-                  style="margin-top: 0px; font-weight: 900; color: #555"
+                  style="
+                    margin-top: 0px;
+                    font-weight: 700;
+                    color: #555;
+                    font-family: Roboto, sans-serif !important;
+                  "
                 >
                   {{ child.section }}
                 </v-list-item>
