@@ -3,7 +3,7 @@ export default defineAppConfig({
   description: "R3 description.",
   api: "https://r3.icjia-api.cloud",
   root: "https://r3.icjia.dev",
-  isTranslationEnabled: false,
+
   splash: [
     {
       src: "https://r3.icjia-api.cloud/uploads/medium_new_splash_01_0ca141e7db.jpg?updated_at=2022-12-15T16:26:21.124Z",

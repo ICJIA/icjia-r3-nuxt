@@ -3,7 +3,6 @@
     <TheNav></TheNav>
 
     <TheSidebar></TheSidebar>
-    <TheTranslationModal v-if="isTranslationEnabled"></TheTranslationModal>
 
     <NuxtLoadingIndicator color="blue" />
 
@@ -17,7 +16,6 @@
 </template>
 
 <script setup>
-const { isTranslationEnabled } = useAppConfig();
 const isHome = ref(true);
 const route = useRoute();
 watchEffect(() => {

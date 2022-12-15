@@ -71,11 +71,7 @@
           <v-icon left icon="mdi-magnify" size="x-small"></v-icon
           >&nbsp;&nbsp;&nbsp;Search</v-list-item
         >
-        <v-list-item
-          v-if="isTranslationEnabled"
-          class="sidebar-item"
-          @click.prevent="translationToggle"
-        >
+        <v-list-item class="sidebar-item" @click.prevent="translationToggle">
           <v-icon left icon="mdi-web" size="x-small"></v-icon
           >&nbsp;&nbsp;&nbsp;Translate</v-list-item
         >
@@ -85,7 +81,6 @@
 </template>
 
 <script setup>
-const { isTranslationEnabled } = useAppConfig();
 const appConfig = useAppConfig();
 const navMenu = JSON.parse(JSON.stringify(appConfig.navMenu));
 const isMounted = ref(false);
