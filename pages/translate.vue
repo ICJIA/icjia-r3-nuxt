@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Translation here</h1>
+    <h1>Translation options here</h1>
   </div>
 </template>
 

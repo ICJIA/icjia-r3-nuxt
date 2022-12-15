@@ -20,14 +20,8 @@
               <div style="font-size: 12px; font-weight: 400">
                 <nuxt-link to="/contact" style="color: #fff; background: none"
                   >Contact Us</nuxt-link
-                >
-                |
-                <a
-                  href="https://visitor.r20.constantcontact.com/manage/optin?v=001MqUcqqvjwLCJXlLMSWbTe3zHHmEQgFeBuHvBcJWTbwgrxFbDSGx4HSUPpI6DJWMUPgbljtLxffqIcGFTgCnr-auak88ybvRxpoJlTMGPtZs%3D"
-                  style="color: #fff; background: none"
-                  target="_blank"
-                  >Subscribe to the CJ Dispatch</a
-                >
+                >&nbsp;
+
                 <span
                   >|
                   <nuxt-link
@@ -35,7 +29,7 @@
                     class="hover-anchor"
                     to="/translate"
                   >
-                    Translate
+                    Translate this site
                   </nuxt-link>
                 </span>
               </div>
@@ -57,10 +51,7 @@
             >
           </v-row>
           <v-row
-            ><v-col
-              class="text-center"
-              style="margin-bottom: -22px"
-              @click="scrollTop"
+            ><v-col class="text-center" @click="scrollTop"
               ><span class="goToTop"> BACK TO TOP </span
               ><v-icon small right style="color: #fff; font-size: 10px"
                 >mdi-chevron-up</v-icon

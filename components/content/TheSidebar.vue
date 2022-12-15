@@ -71,7 +71,7 @@
           <v-icon left icon="mdi-magnify" size="x-small"></v-icon
           >&nbsp;&nbsp;&nbsp;Search</v-list-item
         >
-        <v-list-item class="sidebar-item" @click.prevent="translationToggle">
+        <v-list-item class="sidebar-item" to="/translate">
           <v-icon left icon="mdi-web" size="x-small"></v-icon
           >&nbsp;&nbsp;&nbsp;Translate</v-list-item
         >
