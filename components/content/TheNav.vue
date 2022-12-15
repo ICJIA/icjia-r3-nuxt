@@ -64,6 +64,7 @@
                   size="default"
                   class="hidden-sm-and-down navItem"
                   v-bind="props"
+                  style="font-family: Roboto, sans-serif !important"
                 >
                   {{ menu.main }}
                   <v-icon right small>mdi-menu-down</v-icon></v-btn
