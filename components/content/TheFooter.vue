@@ -17,22 +17,6 @@
               class="text-center mt-2"
               style="color: white"
             >
-              <div>
-                <a
-                  href="https://icjia.illinois.gov"
-                  target="_blank"
-                  style="text-decoration: none"
-                >
-                  <img
-                    src="https://i2i.icjia-api.cloud/uploads/icjia_logo_6e30b0adb5.png"
-                    alt="Footer logo"
-                    width="100"
-                    style="border: 0px solid #ddd; display: inline"
-                    class="hover"
-                  />
-                </a>
-              </div>
-
               <div style="font-size: 12px; font-weight: 400">
                 <nuxt-link to="/contact" style="color: #fff; background: none"
                   >Contact Us</nuxt-link
@@ -66,7 +50,7 @@
                     href="https://icjia.illinois.gov"
                     target="_blank"
                     style="color: #aaa"
-                    >Illinois Criminal Justice Information Authority</a
+                    >State of Illinois</a
                   >
                 </strong>
               </div></v-col
