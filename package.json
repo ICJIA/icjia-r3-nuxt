@@ -9,11 +9,11 @@
   "scripts": {
     "build": "yarn scripts && nuxt build",
     "build:serve": "npm run scripts && nuxt build && node .output/server/index.mjs ",
-    "build:edge": "NITRO_PRESET=netlify-edge nuxt build",
     "create:markdown": "node ./creators/createMarkdown.js",
     "create:sitemap": "node ./creators/createSitemap.mjs",
     "dev": "yarn scripts && nuxt dev --port=8000 -o",
     "generate": "yarn scripts && nuxt generate",
+    "generate:serve": "yarn scripts && nuxt generate && serve ./dist",
     "preview": "nuxt preview",
     "scripts": "yarn create:markdown && yarn create:sitemap",
     "postinstall": "nuxt prepare",

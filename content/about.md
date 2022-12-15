@@ -4,7 +4,7 @@ slug: about
 summary: This is the summary for the about page.
 section: root
 createdAt: 2022-12-14T14:18:06.805Z
-updatedAt: 2022-12-14T14:18:08.430Z
+updatedAt: 2022-12-15T14:54:01.505Z
 publishedAt: 2022-12-14T14:18:08.425Z
 searchMeta: null
 rawText: "this is the body for the about page "

@@ -26,8 +26,20 @@ export default defineAppConfig({
       link: "/about",
     },
     {
+      main: "FAQs",
+      link: "/faqs",
+    },
+    {
+      main: "News",
+      link: "/news",
+    },
+    {
       main: "Board",
       link: "/board",
+    },
+    {
+      main: "Meetings",
+      link: "/meetings",
     },
     {
       main: "Eligibility",
@@ -36,6 +48,14 @@ export default defineAppConfig({
     {
       main: "Collaboratives",
       link: "/collaboratives",
+    },
+    {
+      main: "Funding Opportunities",
+      link: "/apply",
+    },
+    {
+      main: "Resources",
+      link: "/resources",
     },
     {
       main: "Search",

@@ -1,15 +1,41 @@
 <template>
   <div v-if="data && isMounted">
-    <ContentDoc :key="data?.title" :value="data" class="markdown-body mt-12">
-      <template #empty>Document not found</template>
-      <template #not-found>Document not found</template>
-    </ContentDoc>
-    <v-container fluid>
+    <v-container fluid class="full-width">
+      <v-row no-gutters>
+        <v-col style="background: #ccc; height: 500px"> Splash here </v-col>
+      </v-row>
+    </v-container>
+
+    <v-container>
       <v-row>
-        <v-col cols="12" md="6"> Tool boxes here </v-col>
-        <v-col cols="12" md="6"> News here </v-col></v-row
+        <v-col cols="12">
+          <ContentDoc
+            :key="data?.title"
+            :value="data"
+            class="markdown-body mt-12"
+          >
+            <template #empty>Document not found</template>
+            <template #not-found>Document not found</template>
+          </ContentDoc>
+        </v-col></v-row
       ></v-container
     >
+    <div style="background: #fafafa" class="mt-10">
+      <v-container
+        fluid
+        style="
+          margin: 0;
+          padding: 0;
+          border-top: 1px solid #aaa;
+          min-height: 30vh;
+        "
+      >
+        <v-row>
+          <v-col cols="12" md="6"> The Tool boxes here </v-col>
+          <v-col cols="12" md="6"> News here </v-col></v-row
+        ></v-container
+      >
+    </div>
   </div>
 </template>
 
@@ -33,6 +59,10 @@ onMounted(() => {
 </script>
 
 <style>
+.full-width {
+  margin: 0;
+  padding: 0;
+}
 .white-heading {
   color: #fff !important;
 }

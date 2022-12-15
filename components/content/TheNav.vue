@@ -41,13 +41,12 @@
             font-weight: 900 !important;
             font-size: 22px;
             letter-spacing: 0.004em;
+            font-family: 'Roboto', sans-serif !important;
           "
           class="agency app-title"
           @click="$router.push('/')"
-          >Restore, Reinvest, Renew<span class="hidden-md-and-down">
-            | <span style="color: #fea30b; font-size: 30px">R3</span></span
-          ></span
-        >
+          ><span>R3</span>&nbsp;&nbsp;RESTORE. REINVEST. RENEW.
+        </span>
       </div>
 
       <v-spacer></v-spacer>
