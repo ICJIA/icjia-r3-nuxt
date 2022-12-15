@@ -84,3 +84,7 @@ ul.cohort-list li {
     transform: scale(1.04);
     cursor: pointer;
 }
+
+.pending {
+    color: red;
+}

@@ -2,59 +2,27 @@
   <div v-if="data && isMounted">
     <v-container fluid class="full-width">
       <v-row no-gutters>
-        <v-col style="background: #ccc" cols="12" md="6">
-          <v-card class="hoverCard">
+        <v-col
+          v-for="(item, index) in splash"
+          :key="`splash-photo-${index}`"
+          style="background: #ccc"
+          cols="12"
+          md="6"
+        >
+          <v-card class="hoverCard" style="min-height: 500px">
             <v-img
               cover
-              src="https://r3.icjia-api.cloud/uploads/new_splash_01_0ca141e7db.jpg?updated_at=2022-12-15T16:26:21.124Z"
-              lazy-src="https://r3.icjia-api.cloud/uploads/thumbnail_new_splash_01_0ca141e7db.jpg"
+              :src="item.src"
+              :lazy-src="item.lazySrc"
               aspect-ratio="1"
               class="grey lighten-2"
               height="550"
             >
               <div class="text-center px-12" style="margin-top: 150px">
-                <h1 class="nofo-title mt-3">PLANNING AND CAPACITY BUILDING</h1>
+                <h1 class="nofo-title mt-3">{{ item.title }}</h1>
                 <div class="nofo-tagline">
-                  Grants to provide funds for organizations to develop a
-                  community plan for service provision or to build their own
-                  internal capacity to provide services.
+                  {{ item.tagline }}
                 </div>
-
-                <!-- <v-btn
-                  class="mt-6"
-                  variant="outlined"
-                  color="white"
-                  style="font-weight: 900"
-                  >Expired</v-btn
-                > -->
-              </div>
-            </v-img>
-          </v-card>
-        </v-col>
-        <v-col style="background: #ccc" cols="12" md="6">
-          <v-card class="hoverCard">
-            <v-img
-              cover
-              src="https://r3.icjia-api.cloud/uploads/new_splash_02_c981e61127.jpg?updated_at=2022-12-15T16:26:20.125Z"
-              lazy-src="https://r3.icjia-api.cloud/uploads/thumbnail_new_splash_02_c981e61127.jpg?updated_at=2022-12-15T16:26:20.125Z"
-              aspect-ratio="1"
-              class="grey lighten-2"
-              height="550"
-            >
-              <div class="text-center px-12" style="margin-top: 150px">
-                <h1 class="nofo-title mt-3">SERVICE AND DELIVERY</h1>
-                <div class="nofo-tagline">
-                  Grants to provide services to repair the harm caused by
-                  economic disinvestment, violence, and the war on drugs
-                </div>
-
-                <!-- <v-btn
-                  class="mt-6"
-                  variant="outlined"
-                  color="white"
-                  style="font-weight: 900"
-                  >Expired</v-btn
-                > -->
               </div>
             </v-img>
           </v-card>
@@ -96,6 +64,7 @@
 </template>
 
 <script setup>
+const { splash } = useAppConfig();
 const { path } = useRoute();
 const router = useRouter();
 const isMounted = ref(false);

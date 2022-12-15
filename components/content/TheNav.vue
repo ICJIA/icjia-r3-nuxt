@@ -69,7 +69,7 @@
                   <v-icon right small>mdi-menu-down</v-icon></v-btn
                 >
               </template>
-              <v-list nav density="compact" elevation="2">
+              <v-list nav elevation="2">
                 <span
                   v-for="(child, index) in menu.children"
                   :key="`child-${index}`"
@@ -142,36 +142,7 @@
         <!-- <v-btn icon class="hidden-lg-and-up hidden-sm-and-down">
           <v-icon>mdi-dots-vertical</v-icon>
         </v-btn> -->
-        <span class="hidden-lg-and-up hidden-sm-and-down">
-          <v-tooltip activator="parent" location="bottom"> More </v-tooltip>
-          <v-menu transition="scale-transition">
-            <template #activator="{ props }">
-              <v-btn v-bind="props">
-                <v-icon>mdi-dots-vertical</v-icon>
-              </v-btn>
-            </template>
 
-            <v-list>
-              <v-list-item exact to="/search">
-                <v-list-item-title style="font-size: 16px; font-weight: 700"
-                  ><v-icon size="x-small" icon="mdi-magnify" left></v-icon
-                  >&nbsp;&nbsp;Search</v-list-item-title
-                >
-              </v-list-item>
-              <v-list-item
-                v-if="isTranslationEnabled"
-                exact
-                style="cursor: pointer"
-                @click="openTranslationModal"
-              >
-                <v-list-item-title style="font-size: 16px; font-weight: 700"
-                  ><v-icon size="x-small" icon="mdi-web" left></v-icon
-                  >&nbsp;&nbsp;Translate</v-list-item-title
-                >
-              </v-list-item>
-            </v-list>
-          </v-menu>
-        </span>
         <span
           class="hover hamburger text-center hidden-md-and-up"
           @click="goToSearch"
