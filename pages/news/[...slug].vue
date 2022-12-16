@@ -25,6 +25,8 @@ const redirect = () => {
               <template #empty>Document not found</template>
               <template #not-found>Document not found</template>
             </ContentDoc>
+            <br />
+            <strong>Table of Contents</strong>: {{ data.body.toc }}
           </div>
           <div v-else>{{ redirect() }}</div>
         </v-col></v-row

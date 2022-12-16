@@ -53,7 +53,7 @@
           </v-col></v-row
         ></v-container
       >
-      <div style="background: #fafafa" class="mt-10">
+      <div style="background: #fafafa" class="mt-10 pb-12">
         <v-container
           fluid
           style="
@@ -65,7 +65,18 @@
         >
           <v-row>
             <v-col cols="12" md="6"> The Tool boxes here </v-col>
-            <v-col cols="12" md="6"> The News here </v-col></v-row
+            <v-col cols="12" md="6">
+              <h2>R3 News</h2>
+              <!-- <div v-if="test">{{ test[0].title }}</div> -->
+              <v-card
+                v-for="item in test"
+                :key="item.id"
+                class="px-5 py-3 mb-3"
+              >
+                <h3>{{ item.title }}</h3>
+                <p>{{ item.summary }}</p>
+              </v-card>
+            </v-col></v-row
           ></v-container
         >
       </div>
@@ -84,6 +95,7 @@
 </template>
 
 <script setup>
+import _ from "lodash";
 const { splash } = useAppConfig();
 const { path } = useRoute();
 const router = useRouter();
@@ -94,12 +106,29 @@ const { data } = await useAsyncData(`content-home`, async () => {
   const post = await queryContent().where({ _path: "/" }).findOne();
   return post;
 });
+const { data: news } = await useAsyncData(`news-${path}`, async () => {
+  const post = await queryContent("/news").limit(3).find();
+
+  return post;
+});
+
 const redirect = () => {
   router.push("/404");
 };
 
+let sortedNews = ref([]);
+sortedNews = news.value.map((item) => {
+  return item.title;
+});
+
+const test = _.orderBy(news.value, ["createdAt"], ["desc"]);
+console.dir(test);
+
 onMounted(() => {
+  // console.log("mounted: ", news.value);
+
   isMounted.value = true;
+  // console.log("sortedNews: ", sortedNews);
 });
 </script>
 
