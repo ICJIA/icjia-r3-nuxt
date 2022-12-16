@@ -68,6 +68,7 @@
             <v-col cols="12" md="6">
               <h2>R3 News</h2>
               <!-- <div v-if="test">{{ test[0].title }}</div> -->
+
               <v-card
                 v-for="item in test"
                 :key="item.id"
@@ -135,7 +136,7 @@ sortedNews = news.value.map((item) => {
 });
 
 const test = _.orderBy(news.value, ["createdAt"], ["desc"]);
-console.dir(test);
+// console.dir(test);
 
 const routeTo = (item) => {
   // console.table(item.slug);

@@ -4,8 +4,9 @@
     <div v-if="data">
       {{ data }}
     </div>
-    <nuxtLink to="/news/test-post-1">Test Post 1</nuxtLink><br />
-    <nuxtLink to="/news/test-post-2">Test Post 2</nuxtLink>
+    <!-- <nuxtLink to="/news/test-post-1">Test Post 1</nuxtLink><br />
+    <nuxtLink to="/news/test-post-2">Test Post 2</nuxtLink><br />
+    <nuxtLink to="/news/test-post-3">Test Post 3</nuxtLink><br /> -->
   </div>
 </template>
 

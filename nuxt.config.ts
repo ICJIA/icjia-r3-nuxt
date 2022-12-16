@@ -122,4 +122,7 @@ export default defineNuxtConfig({
       },
     },
   },
+  generate: {
+    routes: ["/news/test-post-1", "/news/test-post-2", "/news/test-post-3"],
+  },
 });

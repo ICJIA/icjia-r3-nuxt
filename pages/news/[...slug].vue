@@ -17,7 +17,7 @@ const redirect = () => {
 
 <template>
   <div>
-    <v-container
+    <v-container class="mb-12"
       ><v-row
         ><v-col>
           <div v-if="data" class="mt-6">
@@ -29,7 +29,7 @@ const redirect = () => {
             <br />
             <strong>Table of Contents</strong>: {{ data.body.toc }}
           </div>
-          <div v-else>{{ redirect() }}</div>
+          <!-- <div v-else>{{ redirect() }}</div> -->
         </v-col></v-row
       ></v-container
     >
