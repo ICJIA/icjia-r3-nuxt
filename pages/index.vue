@@ -72,8 +72,44 @@
       >
         <v-container fluid>
           <v-row>
-            <v-col cols="12" md="6"><h2>Applicant Tools</h2> </v-col>
-            <v-col cols="12" md="6">
+            <v-col cols="12" md="7"
+              ><h2>Applicant Tools</h2>
+              <v-container style="margin: 0; padding: 0" class="mt-3">
+                <v-row>
+                  <v-col
+                    v-for="(card, index) in 4"
+                    :key="index"
+                    cols="12"
+                    sm="12"
+                    md="6"
+                  >
+                    <v-card
+                      dark
+                      color="#04456b"
+                      class="hover info-card px-5 py-5"
+                      height="250px"
+                    >
+                      <div class="d-flex flex-no-wrap justify-space-between">
+                        <div>
+                          <h2 style="color: #fff">Card Title here</h2>
+
+                          <v-card-subtitle style="font-size: 14px; color: #eee">
+                            card summary here
+                          </v-card-subtitle>
+                        </div>
+
+                        <!-- <v-avatar class="ma-3" size="125" tile>
+                        <v-icon class="outlined" x-large>
+                          {{ card.attributes.cardIcon }}
+                        </v-icon>
+                      </v-avatar> -->
+                      </div>
+                    </v-card>
+                  </v-col>
+                </v-row>
+              </v-container>
+            </v-col>
+            <v-col cols="12" md="5">
               <h2>News & Updates</h2>
               <!-- <div v-if="test">{{ test[0].title }}</div> -->
 
@@ -81,7 +117,8 @@
                 v-for="item in sortedNews"
                 :key="item.id"
                 elevation="1"
-                class="px-5 py-3 mb-3"
+                class="px-5 py-3 mb-3 info-card"
+                height="250px"
                 @click="routeToNews(item)"
               >
                 <div style="font-size: 12px; font-weight: 700">
@@ -98,9 +135,13 @@
                 </h3>
                 <p>{{ item.summary }}</p>
                 <div class="text-right">
-                  <v-btn text small variant="text" :to="item.path"
-                    >Read more
-                  </v-btn>
+                  <v-btn
+                    size="x-small"
+                    variant="text"
+                    :to="item.path"
+                    style="font-weight: 900"
+                    >Read more&nbsp;&raquo;</v-btn
+                  >
                 </div>
               </v-card>
               <div class="text-center mt-10">
@@ -149,7 +190,7 @@ const redirect = () => {
 };
 
 let sortedNews = _.orderBy(news.value, ["createdAt"], ["desc"]);
-sortedNews = sortedNews.slice(0, 3);
+sortedNews = sortedNews.slice(0, 2);
 
 const routeToNews = (item) => {
   router.push(`/news/${item.slug}`);

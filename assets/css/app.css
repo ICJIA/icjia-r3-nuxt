@@ -71,7 +71,8 @@ ul.cohort-list li {
 .info-card:hover,
 .event-card:hover,
 .news-card:hover,
-.info-box:hover {
+.info-box:hover
+.tool-card:hover {
     box-shadow: 0px 0px 25px #000000;
     z-index: 2;
     -webkit-transition: all 100ms ease-in;
