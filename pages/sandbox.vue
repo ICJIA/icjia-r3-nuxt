@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <h1>Sandbox</h1>
-  </div>
+  <div>Sandbox here</div>
 </template>
 
 <script setup>

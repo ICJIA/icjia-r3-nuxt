@@ -84,10 +84,7 @@ export default defineAppConfig({
       main: "Home",
       link: "/",
     },
-    {
-      main: "About",
-      link: "/about",
-    },
+
     {
       main: "FAQs",
       link: "/faqs",

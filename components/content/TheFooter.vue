@@ -18,46 +18,68 @@
               style="color: white"
             >
               <div style="font-size: 12px; font-weight: 400">
+                <strong
+                  >&#169; 2023
+                  <a
+                    href="https://www.illinois.gov"
+                    target="_blank"
+                    style="color: #fff"
+                    >State of Illinois</a
+                  >
+                </strong>
+                &nbsp;|&nbsp;
+                <strong>
+                  <a
+                    href="https://www2.illinois.gov/sites/gov/Pages/default.aspx"
+                    target="_blank"
+                    style="color: #fff"
+                    >Governor JB Pritzker
+                  </a>
+                </strong>
+                &nbsp;|&nbsp;
+                <strong>
+                  <a
+                    href="https://coronavirus.illinois.gov/"
+                    target="_blank"
+                    style="color: #fff"
+                    >Statewide Coronavirus Response
+                  </a>
+                </strong>
+                &nbsp;|&nbsp;
+                <strong>
+                  <a
+                    href="https://www.illinois.gov/about/privacy.html"
+                    target="_blank"
+                    style="color: #fff"
+                    >Privacy
+                  </a>
+                </strong>
+                &nbsp;|&nbsp;
                 <nuxt-link to="/contact" style="color: #fff; background: none"
-                  >Contact Us</nuxt-link
+                  >Contact</nuxt-link
                 >&nbsp;
 
-                <span
-                  >|
+                <span>
+                  &nbsp;|&nbsp;
                   <nuxt-link
                     style="color: #fff; background: none; cursor: pointer"
                     class="hover-anchor"
                     to="/translate"
                   >
-                    Translate this site
+                    Translate
                   </nuxt-link>
                 </span>
               </div>
-
-              <div
-                class="mt-3"
-                style="font-size: 12px; font-weight: 300; color: #ccc"
-              >
-                <strong
-                  >&#169; 2023
-                  <a
-                    href="https://icjia.illinois.gov"
-                    target="_blank"
-                    style="color: #aaa"
-                    >State of Illinois</a
-                  >
-                </strong>
-              </div></v-col
-            >
+            </v-col>
           </v-row>
-          <v-row
+          <!-- <v-row
             ><v-col class="text-center" @click="scrollTop"
               ><span class="goToTop"> BACK TO TOP </span
               ><v-icon small right style="color: #fff; font-size: 10px"
                 >mdi-chevron-up</v-icon
               ></v-col
             ></v-row
-          >
+          > -->
         </v-container>
       </v-card>
     </v-footer>
