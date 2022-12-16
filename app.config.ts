@@ -14,9 +14,9 @@ export default defineAppConfig({
         "Grants to provide funds for organizations to develop a community plan for service provision or to build their own internal capacity to provide services.",
     },
     {
-      src: "https://r3.icjia-api.cloud/uploads/medium_new_splash_02_c981e61127.jpg?updated_at=2022-12-15T16:26:20.125Z",
+      src: "https://r3.icjia-api.cloud/uploads/medium_new_splash_03_9b9975cfc5.jpg?updated_at=2022-12-16T00:42:02.049Z",
       lazySrc:
-        "https://r3.icjia-api.cloud/uploads/thumbnail_new_splash_02_c981e61127.jpg?updated_at=2022-12-15T16:26:20.125Z",
+        "https://r3.icjia-api.cloud/uploads/thumbnail_new_splash_03_9b9975cfc5.jpg?updated_at=2022-12-16T00:42:02.049Z",
       title: "SERVICE AND DELIVERY",
       tagline:
         "Grants to provide services to repair the harm caused by economic disinvestment, violence, and the war on drugs",
