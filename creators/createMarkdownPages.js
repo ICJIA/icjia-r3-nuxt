@@ -127,7 +127,7 @@ axios
     });
 
     jsonfile.writeFileSync(
-      `./public/pageRoutes.json`,
+      `./public/routesPages.json`,
       pageRoutes,
       function (err) {
         if (err) {
@@ -135,6 +135,13 @@ axios
         }
       }
     );
+
+    jsonfile.writeFileSync(`./public/pages.json`, site, function (err) {
+      if (err) {
+        console.error(err);
+      }
+      console.log("pages.json created in /public/");
+    });
 
     site.forEach((page) => {
       if (page.attributes.section === "root") {

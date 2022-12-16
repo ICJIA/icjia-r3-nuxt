@@ -1,1 +1,860 @@
-[{"type":"page","path":"/apply","name":"apply","title":"Funding opportunities","summary":"Current funding opportunities","headings":[]},{"type":"page","path":"/board","name":"board","title":"Board Composition","summary":"R3 Board Composition","headings":[]},{"type":"page","path":"/collaboratives","name":"collaboratives","title":"Collaboratives","summary":"Groups of two or more organizations that apply for funding for a single cooperative program under one application.","headings":[{"heading":"More about Collaboratives","target":"icjia-more-about-collaboratives"}]},{"type":"page","path":"/dev","name":"dev","title":"Map","summary":"Map","headings":[]},{"type":"page","path":"/eligibility","name":"eligibility","title":"Eligibility","summary":"Find out if you're eligible to apply for R3 funding.","headings":[{"heading":"Eligible Applicants","target":"icjia-eligible-applicants"},{"heading":"Eligible Service Areas","target":"icjia-eligible-service-areas"},{"heading":"Using the R3 Map to Determine Eligibility and Funding Level","target":"icjia-using-the-r3-map-to-determine-eligibility-and-funding-level"},{"heading":"R3 Table","target":"icjia-r3-table"},{"heading":"Analysis","target":"icjia-analysis"},{"heading":"Part I Criteria","target":"icjia-part-i-criteria"},{"heading":"1. Highest rates of gun injury","target":"icjia-1-highest-rates-of-gun-injury"},{"heading":"2. Highest rates of unemployment","target":"icjia-2-highest-rates-of-unemployment"},{"heading":"3. Highest child poverty rates","target":"icjia-3-highest-child-poverty-rates"},{"heading":"4. Highest rates of commitments to and returns from the Illinois Department of Corrections","target":"icjia-4-highest-rates-of-commitments-to-and-returns-from-the-illinois-department-of-corrections"},{"heading":"Part II Criterion","target":"icjia-part-ii-criterion"},{"heading":"1. High need, underserved, disproportionately impacted by historical economic disinvestment","target":"icjia-1-high-need-underserved-disproportionately-impacted-by-historical-economic-disinvestment"}]},{"type":"page","path":"/faqs","name":"faqs","title":"Untitled","summary":"","headings":[]},{"type":"page","path":"/funding/2021-planning-and-capacity","name":"funding2021-planning-and-capacity","title":"Planning and Capacity Building","summary":"Grants to provide funds for organizations to develop a community plan for service provision or to build their own internal capacity to provide services.","headings":[]},{"type":"page","path":"/funding/2021-service-delivery","name":"funding2021-service-delivery","title":"Service Delivery","summary":"Grants to provide services to repair the harm caused by economic disinvestment, violence, and the war on drugs ","headings":[]},{"type":"page","path":"/","name":"home","title":"Home","summary":"Together with the R3 Board, ICJIA will award grant funds to community organizations that support economic development, provide violence prevention and reentry services, and offer youth development and civil legal aid.","headings":[]},{"type":"page","path":"/meetings","name":"meetings","title":"R3 Meetings","summary":"R3 Meetings","headings":[]},{"type":"page","path":"/news/2020-09-25-update","name":"news2020-09-25-update","title":"R3 Application Review Status Update","summary":"The Restore, Reinvest, and Renew (R3) grant program application deadline was July 20, 2020. The community response to this grant opportunity was overwhelming and hundreds of applications for funding were submitted. Due to the unprecedented number of applications received, the review process is taking longer than expected. All applications have been distributed to reviewers and the review process is well underway.","headings":[]},{"type":"page","path":"/news/2021-01-21-release","name":"news2021-01-21-release","title":"Delivering on Key Equity Goal, Pritzker Administration Awards $31.5 Million in First Ever Restore, Reinvest, and Renew Program Grants to Organizations Across the State","summary":"Using revenue from adult-use cannabis sales, the Illinois Criminal Justice Information Authority (ICJIA) today announced 80 grants totaling $31.5 million to organizations to help the communities hardest hit by the failed war on drugs. The organizations’ work includes violence prevention, legal aid, and re-entry services.","headings":[]},{"type":"page","path":"/news/2021-05-21-NOFO","name":"news2021-05-21-nofo","title":"Notice of Funding Opportunity: Emergency Summer Violence Response Pilot Program","summary":"The Illinois Criminal Justice Information Authority will make available $3 million in state grant funds to support youth development, employment, and street intervention/outreach program expansion in efforts to respond to summer violence.","headings":[]},{"type":"page","path":"/news/2021-07-15-r3-update","name":"news2021-07-15-r3-update","title":"Pritzker Administration Awards $3.5 Million in Restore, Reinvest, and Renew Program Grants in Response to Summer Violence","summary":"CHICAGO -- Using revenue generated from adult-use cannabis sales, the Illinois Criminal Justice Information Authority (ICJIA) today announced 21 grants totaling $3.5 million to organizations offering young people and emerging adults (ages 10 to 25) pro-social activities that may reduce violence and victimization or provide increased street intervention this summer.","headings":[]},{"type":"page","path":"/news/2021-09-20-meetings","name":"news2021-09-20-meetings","title":"Meeting Agendas and Minutes now available","summary":"R3 meeting agendas are now available for download. Meeting minutes will be posted as soon as they are available.","headings":[]},{"type":"page","path":"/news/2021-11-19-r3-feedback","name":"news2021-11-19-r3-feedback","title":"The Illinois Restore, Reinvest, and Renew (R3) Grant Program: Examining Grant Applicant Feedback","summary":"Administered by the Illinois Criminal Justice Information Authority (ICJIA), R3 directs a significant portion of cannabis revenue toward building equity in communities that have been ravaged by violence and disproportionately impacted by historical criminal justice system overuse and economic disinvestment. Our latest brief report highlights the results of a feedback survey provided to R3 grant program applicants regarding their application experiences.","headings":[]},{"type":"page","path":"/news/2021-12-15-r3-announcement","name":"news2021-12-15-r3-announcement","title":"PRITZKER ADMINISTRATION ANNOUNCES $45 MILLION IN GRANTS AVAILABLE THROUGH RESTORE, REINVEST, RENEW (R3) FUNDING OPPORTUNITY","summary":"Governor JB Pritzker and Lt. Governor Julianna Stratton today announced $45 million in Restore, Reinvest, and Renew (R3) program funding to support community organizations that serve neighborhoods most impacted by economic disinvestment, violence, and the war on drugs.","headings":[]},{"type":"page","path":"/news/2022-01-26-board-meeting-announcement","name":"news2022-01-26-board-meeting-announcement","title":"R3 Program Board Meeting: Jan. 31, 2022","summary":"R3 Program Board, Regular Meeting. Monday, January 31, 2022, 1:00 PM - 2:30 PM. Videoconference/Teleconference.","headings":[]},{"type":"page","path":"/news/2022-02-24-r3-volunteer-reviewers","name":"news2022-02-24-r3-volunteer-reviewers","title":"ICJIA Seeks Restore, Reinvest, Renew (R3) Grant Application Reviewers","summary":"The Illinois Criminal Justice Information Authority seeks members of Restore, Reinvest, and Renew (R3) grant-eligible communities to assist in its upcoming R3 grant application review process. ICJIA administers R3 program funding, which supports programs in Illinois communities that have been harmed by violence, excessive incarceration, and economic disinvestment. To build equity in R3 grantmaking, ICJIA invites volunteers from communities most impacted by high rates of gun injury, child poverty, unemployment and overuse of incarceration to engage in ICJIA’s process of determining the best use of these funds.","headings":[{"heading":"Application reviewer responsibilities include:","target":"icjia-application-reviewer-responsibilities-include"},{"heading":"Through this process, selected application reviewers will receive:","target":"icjia-through-this-process-selected-application-reviewers-will-receive"}]},{"type":"page","path":"/news/2022-03-01-deadline-extended","name":"news2022-03-01-deadline-extended","title":"R3 Grant Deadline Extended","summary":"Due to an unprecedented response to the R3 Notices of Funding Opportunity, ICJIA has extended the application deadlines to 2:00 p.m., on Tuesday, March 8, 2022. This extension will allow agencies more time to complete and submit their applications and address any technical issues that may arise.","headings":[{"heading":"New R3 Application Deadline: 2:00 p.m., Tuesday, March 8","target":"icjia-new-r3-application-deadline-200-pm-tuesday-march-8"},{"heading":"TECHNICAL ISSUES","target":"icjia-technical-issues"},{"heading":"OTHER RESOURCES","target":"icjia-other-resources"}]},{"type":"page","path":"/news/2022-06-23-r3-grants-list","name":"news2022-06-23-r3-grants-list","title":"ICJIA Awards $45 Million in Restore, Reinvest, and Renew (R3) Program Grants","summary":"CHICAGO—Using revenue from adult-use, recreational cannabis sales, the Illinois Criminal Justice Information Authority (ICJIA) today announced $45 million in grant funding that will support 148 programs run by organizations in communities hardest hit by the failed war on drugs.","headings":[]},{"type":"page","path":"/news/2022-08-17-debrief-deadline","name":"news2022-08-17-debrief-deadline","title":"NOFO application debrief deadline extended","summary":"Opportunities for applicants to receive feedback on applications that were not selected for funding as a result of the recent R3 NOFO are still open.","headings":[]},{"type":"page","path":"/news/2022-10-13-language-access","name":"news2022-10-13-language-access","title":"Language Services Announcement","summary":"To support its goals of being inclusive and accessible to all, ICJIA provides free language assistance services to individuals whose primary language is not English. Language assistance services include providing qualified interpreters and translating documents to ease access to important information about ICJIA programs, benefits, and activities. These services are available in various languages.","headings":[{"heading":"Additional Translation Resources","target":"icjia-additional-translation-resources"}]},{"type":"page","path":"/resources","name":"resources","title":"Resources","summary":"R3 Resources and Analysis.","headings":[{"heading":"General Information (Spanish)","target":"icjia-general-information-spanish"},{"heading":"Helpful Links","target":"icjia-helpful-links"},{"heading":"R3 NOFO Instructions and Appendices","target":"icjia-r3-nofo-instructions-and-appendices"},{"heading":"AmpliFund Applicant Portal Guide and Tip Sheet","target":"icjia-amplifund-applicant-portal-guide-and-tip-sheet"},{"heading":"NOFO Informational Webinars","target":"icjia-nofo-informational-webinars"},{"heading":"Prequalification Steps","target":"icjia-prequalification-steps"},{"heading":"ICJIA YouTube links","target":"icjia-icjia-youtube-links"},{"heading":"R3 Legislative Language: The legislation establishing the R3 program, from HB1438 Section 10-40","target":"icjia-r3-legislative-language-the-legislation-establishing-the-r3-program-from-hb1438-section-10-40"},{"heading":"Contact Us","target":"icjia-contact-us"},{"heading":"ICJIA Research","target":"icjia-icjia-research"}]},{"type":"page","path":"/search","name":"search","title":"Search","summary":"R3 site search","headings":[]},{"type":"file","path":"/downloads/01.21.21_ICJIA_R3_Grants_Release_Final.pdf","name":"01.21.21_ICJIA_R3_Grants_Release_Final.pdf","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/07.16.21ICJIASummerViolenceGrantsRelease.pdf","name":"07.16.21ICJIASummerViolenceGrantsRelease.pdf","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/9222021MinutesNOFOWorkgroup.docx","name":"9222021MinutesNOFOWorkgroup.docx","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/9232021MinutesNOFOWorkgroup.docx","name":"9232021MinutesNOFOWorkgroup.docx","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/ABOUT_ICJIA_FLYER_2021_Spanish.pdf","name":"ABOUT_ICJIA_FLYER_2021_Spanish.pdf","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/AgendaNOFOWorkgroup10062021.docx","name":"AgendaNOFOWorkgroup10062021.docx","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/AgendaNOFOWorkgroup10122021.docx","name":"AgendaNOFOWorkgroup10122021.docx","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/AgendaNOFOWorkgroup10132021.docx","name":"AgendaNOFOWorkgroup10132021.docx","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/AmpliFundApplicantPortalGuide.pdf","name":"AmpliFundApplicantPortalGuide.pdf","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/AmpliFundNavigationTechnicalAssistance.pdf","name":"AmpliFundNavigationTechnicalAssistance.pdf","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/Attachments1through12SFY2023R3FundingRecommendationsfortheBoardMeeting6.14.2022.pdf","name":"Attachments1through12SFY2023R3FundingRecommendationsfortheBoardMeeting6.14.2022.pdf","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/Attachments1to12SFY2023R3FundingRecommendationsBoardMeeting06162022.pdf","name":"Attachments1to12SFY2023R3FundingRecommendationsBoardMeeting06162022.pdf","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/EligibleAreasCensusTracts.csv","name":"EligibleAreasCensusTracts.csv","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/EligibleAreasCensusTracts.json","name":"EligibleAreasCensusTracts.json","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/EligibleAreasCensusTracts_YR2.csv","name":"EligibleAreasCensusTracts_YR2.csv","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/EligibleAreasCensusTracts_YR2.json","name":"EligibleAreasCensusTracts_YR2.json","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/ICJIAUniformBudgetTemplateforR3Grants.xlsx","name":"ICJIAUniformBudgetTemplateforR3Grants.xlsx","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/Language-Services-Announcement-ICJIA.9.26.2022_Arabic_final.docx","name":"Language-Services-Announcement-ICJIA.9.26.2022_Arabic_final.docx","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/Language-Services-Announcement-ICJIA.9.26.2022_Chinese_final.docx","name":"Language-Services-Announcement-ICJIA.9.26.2022_Chinese_final.docx","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/Language-Services-Announcement-ICJIA.9.26.2022_Hindi_final.docx","name":"Language-Services-Announcement-ICJIA.9.26.2022_Hindi_final.docx","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/Language-Services-Announcement-ICJIA.9.26.2022_Polish_final.docx","name":"Language-Services-Announcement-ICJIA.9.26.2022_Polish_final.docx","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/Language-Services-Announcement-ICJIA.9.26.2022_Spanish_final.docx","name":"Language-Services-Announcement-ICJIA.9.26.2022_Spanish_final.docx","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/Language-Services-Announcement-ICJIA.9.26.2022_Tagalog_final.docx","name":"Language-Services-Announcement-ICJIA.9.26.2022_Tagalog_final.docx","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/LoggingintoAmpliFundAugust21.pdf","name":"LoggingintoAmpliFundAugust21.pdf","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/MinutesNOFOWorkgroup10012021.docx","name":"MinutesNOFOWorkgroup10012021.docx","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/MinutesNOFOWorkgroup1006021.docx","name":"MinutesNOFOWorkgroup1006021.docx","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/MinutesNOFOWorkgroup10122021.docx","name":"MinutesNOFOWorkgroup10122021.docx","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/MinutesNOFOWorkgroup9292021.docx","name":"MinutesNOFOWorkgroup9292021.docx","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/NOFOWorkingGroupAgenda09292021.docx","name":"NOFOWorkingGroupAgenda09292021.docx","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/NOFOWorkingGroupAgenda10012021.docx","name":"NOFOWorkingGroupAgenda10012021.docx","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/NOFOWorkingGroupAgendawithlink-9.22.2021.docx","name":"NOFOWorkingGroupAgendawithlink-9.22.2021.docx","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/NOFOWorkingGroupAgendawithlink-9.23.2021.docx","name":"NOFOWorkingGroupAgendawithlink-9.23.2021.docx","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/R3Agenda06142022.pdf","name":"R3Agenda06142022.pdf","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/R3Agenda06162022.pdf","name":"R3Agenda06162022.pdf","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/R3LegislativeLanguage.pdf","name":"R3LegislativeLanguage.pdf","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/R3Minutes06072022.pdf","name":"R3Minutes06072022.pdf","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/R3Minutes10252022.pdf","name":"R3Minutes10252022.pdf","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/R3NOFOAppendixA.pdf","name":"R3NOFOAppendixA.pdf","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/R3NOFOBudgetTASession.pdf","name":"R3NOFOBudgetTASession.pdf","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/R3NOFOCollaborativeApplicantsTASession.pdf","name":"R3NOFOCollaborativeApplicantsTASession.pdf","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/R3NOFOPerformancePlanWebinar.pdf","name":"R3NOFOPerformancePlanWebinar.pdf","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/R3NOFOQuestionsandAnswers.pdf","name":"R3NOFOQuestionsandAnswers.pdf","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/R3NOFOTASession.pdf","name":"R3NOFOTASession.pdf","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/R3NOFOWebinar.pdf","name":"R3NOFOWebinar.pdf","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/R3PCBNOFOAppendixB.pdf","name":"R3PCBNOFOAppendixB.pdf","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/R3PCBNOFOAppendixC.pdf","name":"R3PCBNOFOAppendixC.pdf","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/R3PCBNOFOInstructions.pdf","name":"R3PCBNOFOInstructions.pdf","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/R3ProgramBoardMembers.pdf","name":"R3ProgramBoardMembers.pdf","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/R3SDNOFOAppendixB.pdf","name":"R3SDNOFOAppendixB.pdf","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/R3SDNOFOAppendixC.pdf","name":"R3SDNOFOAppendixC.pdf","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/R3SDNOFOInstructions.pdf","name":"R3SDNOFOInstructions.pdf","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/R3_Factsheet_Spanish_Final.pdf","name":"R3_Factsheet_Spanish_Final.pdf","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/R3_Status_Update_9.25.20.pdf","name":"R3_Status_Update_9.25.20.pdf","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/R3_site_table_V2.csv","name":"R3_site_table_V2.csv","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/R3_site_table_V2.json","name":"R3_site_table_V2.json","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/R3agenda01312022.pdf","name":"R3agenda01312022.pdf","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/R3agenda06072022.pdf","name":"R3agenda06072022.pdf","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/R3agenda10272022.pdf","name":"R3agenda10272022.pdf","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/R3agendaAttachmentA06072022.pdf","name":"R3agendaAttachmentA06072022.pdf","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/Reviewer_Requirements_d802a8a349.docx","name":"Reviewer_Requirements_d802a8a349.docx","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/SFY21R3NOFOQuestions.pdf","name":"SFY21R3NOFOQuestions.pdf","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/SFY_23_R3_Grants_List_4a515603da.pdf","name":"SFY_23_R3_Grants_List_4a515603da.pdf","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/SubmissionTipZipFile.pdf","name":"SubmissionTipZipFile.pdf","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/_EligibleAreasCensusTracts.pdf","name":"_EligibleAreasCensusTracts.pdf","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/translate/TranslateEn.pdf","name":"TranslateEn.pdf","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/translate/TranslatePo.pdf","name":"TranslatePo.pdf","searchMeta":"","summary":"","headers":[]},{"type":"file","path":"/downloads/translate/TranslateSp.pdf","name":"TranslateSp.pdf","searchMeta":"","summary":"","headers":[]}]
+[
+    {
+        "type": "page",
+        "path": "/apply",
+        "name": "apply",
+        "title": "Funding opportunities",
+        "summary": "Current funding opportunities",
+        "headings": []
+    },
+    {
+        "type": "page",
+        "path": "/board",
+        "name": "board",
+        "title": "Board Composition",
+        "summary": "R3 Board Composition",
+        "headings": []
+    },
+    {
+        "type": "page",
+        "path": "/collaboratives",
+        "name": "collaboratives",
+        "title": "Collaboratives",
+        "summary": "Groups of two or more organizations that apply for funding for a single cooperative program under one application.",
+        "headings": [
+            {
+                "heading": "More about Collaboratives",
+                "target": "icjia-more-about-collaboratives"
+            }
+        ]
+    },
+    {
+        "type": "page",
+        "path": "/dev",
+        "name": "dev",
+        "title": "Map",
+        "summary": "Map",
+        "headings": []
+    },
+    {
+        "type": "page",
+        "path": "/eligibility",
+        "name": "eligibility",
+        "title": "Eligibility",
+        "summary": "Find out if you're eligible to apply for R3 funding.",
+        "headings": [
+            {
+                "heading": "Eligible Applicants",
+                "target": "icjia-eligible-applicants"
+            },
+            {
+                "heading": "Eligible Service Areas",
+                "target": "icjia-eligible-service-areas"
+            },
+            {
+                "heading": "Using the R3 Map to Determine Eligibility and Funding Level",
+                "target": "icjia-using-the-r3-map-to-determine-eligibility-and-funding-level"
+            },
+            {
+                "heading": "R3 Table",
+                "target": "icjia-r3-table"
+            },
+            {
+                "heading": "Analysis",
+                "target": "icjia-analysis"
+            },
+            {
+                "heading": "Part I Criteria",
+                "target": "icjia-part-i-criteria"
+            },
+            {
+                "heading": "1. Highest rates of gun injury",
+                "target": "icjia-1-highest-rates-of-gun-injury"
+            },
+            {
+                "heading": "2. Highest rates of unemployment",
+                "target": "icjia-2-highest-rates-of-unemployment"
+            },
+            {
+                "heading": "3. Highest child poverty rates",
+                "target": "icjia-3-highest-child-poverty-rates"
+            },
+            {
+                "heading": "4. Highest rates of commitments to and returns from the Illinois Department of Corrections",
+                "target": "icjia-4-highest-rates-of-commitments-to-and-returns-from-the-illinois-department-of-corrections"
+            },
+            {
+                "heading": "Part II Criterion",
+                "target": "icjia-part-ii-criterion"
+            },
+            {
+                "heading": "1. High need, underserved, disproportionately impacted by historical economic disinvestment",
+                "target": "icjia-1-high-need-underserved-disproportionately-impacted-by-historical-economic-disinvestment"
+            }
+        ]
+    },
+    {
+        "type": "page",
+        "path": "/faqs",
+        "name": "faqs",
+        "title": "Untitled",
+        "summary": "",
+        "headings": []
+    },
+    {
+        "type": "page",
+        "path": "/funding/2021-planning-and-capacity",
+        "name": "funding2021-planning-and-capacity",
+        "title": "Planning and Capacity Building",
+        "summary": "Grants to provide funds for organizations to develop a community plan for service provision or to build their own internal capacity to provide services.",
+        "headings": []
+    },
+    {
+        "type": "page",
+        "path": "/funding/2021-service-delivery",
+        "name": "funding2021-service-delivery",
+        "title": "Service Delivery",
+        "summary": "Grants to provide services to repair the harm caused by economic disinvestment, violence, and the war on drugs ",
+        "headings": []
+    },
+    {
+        "type": "page",
+        "path": "/",
+        "name": "home",
+        "title": "Home",
+        "summary": "Together with the R3 Board, ICJIA will award grant funds to community organizations that support economic development, provide violence prevention and reentry services, and offer youth development and civil legal aid.",
+        "headings": []
+    },
+    {
+        "type": "page",
+        "path": "/meetings",
+        "name": "meetings",
+        "title": "R3 Meetings",
+        "summary": "R3 Meetings",
+        "headings": []
+    },
+    {
+        "type": "page",
+        "path": "/news/2020-09-25-update",
+        "name": "news2020-09-25-update",
+        "title": "R3 Application Review Status Update",
+        "summary": "The Restore, Reinvest, and Renew (R3) grant program application deadline was July 20, 2020. The community response to this grant opportunity was overwhelming and hundreds of applications for funding were submitted. Due to the unprecedented number of applications received, the review process is taking longer than expected. All applications have been distributed to reviewers and the review process is well underway.",
+        "headings": []
+    },
+    {
+        "type": "page",
+        "path": "/news/2021-01-21-release",
+        "name": "news2021-01-21-release",
+        "title": "Delivering on Key Equity Goal, Pritzker Administration Awards $31.5 Million in First Ever Restore, Reinvest, and Renew Program Grants to Organizations Across the State",
+        "summary": "Using revenue from adult-use cannabis sales, the Illinois Criminal Justice Information Authority (ICJIA) today announced 80 grants totaling $31.5 million to organizations to help the communities hardest hit by the failed war on drugs. The organizations’ work includes violence prevention, legal aid, and re-entry services.",
+        "headings": []
+    },
+    {
+        "type": "page",
+        "path": "/news/2021-05-21-NOFO",
+        "name": "news2021-05-21-nofo",
+        "title": "Notice of Funding Opportunity: Emergency Summer Violence Response Pilot Program",
+        "summary": "The Illinois Criminal Justice Information Authority will make available $3 million in state grant funds to support youth development, employment, and street intervention/outreach program expansion in efforts to respond to summer violence.",
+        "headings": []
+    },
+    {
+        "type": "page",
+        "path": "/news/2021-07-15-r3-update",
+        "name": "news2021-07-15-r3-update",
+        "title": "Pritzker Administration Awards $3.5 Million in Restore, Reinvest, and Renew Program Grants in Response to Summer Violence",
+        "summary": "CHICAGO -- Using revenue generated from adult-use cannabis sales, the Illinois Criminal Justice Information Authority (ICJIA) today announced 21 grants totaling $3.5 million to organizations offering young people and emerging adults (ages 10 to 25) pro-social activities that may reduce violence and victimization or provide increased street intervention this summer.",
+        "headings": []
+    },
+    {
+        "type": "page",
+        "path": "/news/2021-09-20-meetings",
+        "name": "news2021-09-20-meetings",
+        "title": "Meeting Agendas and Minutes now available",
+        "summary": "R3 meeting agendas are now available for download. Meeting minutes will be posted as soon as they are available.",
+        "headings": []
+    },
+    {
+        "type": "page",
+        "path": "/news/2021-11-19-r3-feedback",
+        "name": "news2021-11-19-r3-feedback",
+        "title": "The Illinois Restore, Reinvest, and Renew (R3) Grant Program: Examining Grant Applicant Feedback",
+        "summary": "Administered by the Illinois Criminal Justice Information Authority (ICJIA), R3 directs a significant portion of cannabis revenue toward building equity in communities that have been ravaged by violence and disproportionately impacted by historical criminal justice system overuse and economic disinvestment. Our latest brief report highlights the results of a feedback survey provided to R3 grant program applicants regarding their application experiences.",
+        "headings": []
+    },
+    {
+        "type": "page",
+        "path": "/news/2021-12-15-r3-announcement",
+        "name": "news2021-12-15-r3-announcement",
+        "title": "PRITZKER ADMINISTRATION ANNOUNCES $45 MILLION IN GRANTS AVAILABLE THROUGH RESTORE, REINVEST, RENEW (R3) FUNDING OPPORTUNITY",
+        "summary": "Governor JB Pritzker and Lt. Governor Julianna Stratton today announced $45 million in Restore, Reinvest, and Renew (R3) program funding to support community organizations that serve neighborhoods most impacted by economic disinvestment, violence, and the war on drugs.",
+        "headings": []
+    },
+    {
+        "type": "page",
+        "path": "/news/2022-01-26-board-meeting-announcement",
+        "name": "news2022-01-26-board-meeting-announcement",
+        "title": "R3 Program Board Meeting: Jan. 31, 2022",
+        "summary": "R3 Program Board, Regular Meeting. Monday, January 31, 2022, 1:00 PM - 2:30 PM. Videoconference/Teleconference.",
+        "headings": []
+    },
+    {
+        "type": "page",
+        "path": "/news/2022-02-24-r3-volunteer-reviewers",
+        "name": "news2022-02-24-r3-volunteer-reviewers",
+        "title": "ICJIA Seeks Restore, Reinvest, Renew (R3) Grant Application Reviewers",
+        "summary": "The Illinois Criminal Justice Information Authority seeks members of Restore, Reinvest, and Renew (R3) grant-eligible communities to assist in its upcoming R3 grant application review process. ICJIA administers R3 program funding, which supports programs in Illinois communities that have been harmed by violence, excessive incarceration, and economic disinvestment. To build equity in R3 grantmaking, ICJIA invites volunteers from communities most impacted by high rates of gun injury, child poverty, unemployment and overuse of incarceration to engage in ICJIA’s process of determining the best use of these funds.",
+        "headings": [
+            {
+                "heading": "Application reviewer responsibilities include:",
+                "target": "icjia-application-reviewer-responsibilities-include"
+            },
+            {
+                "heading": "Through this process, selected application reviewers will receive:",
+                "target": "icjia-through-this-process-selected-application-reviewers-will-receive"
+            }
+        ]
+    },
+    {
+        "type": "page",
+        "path": "/news/2022-03-01-deadline-extended",
+        "name": "news2022-03-01-deadline-extended",
+        "title": "R3 Grant Deadline Extended",
+        "summary": "Due to an unprecedented response to the R3 Notices of Funding Opportunity, ICJIA has extended the application deadlines to 2:00 p.m., on Tuesday, March 8, 2022. This extension will allow agencies more time to complete and submit their applications and address any technical issues that may arise.",
+        "headings": [
+            {
+                "heading": "New R3 Application Deadline: 2:00 p.m., Tuesday, March 8",
+                "target": "icjia-new-r3-application-deadline-200-pm-tuesday-march-8"
+            },
+            {
+                "heading": "TECHNICAL ISSUES",
+                "target": "icjia-technical-issues"
+            },
+            {
+                "heading": "OTHER RESOURCES",
+                "target": "icjia-other-resources"
+            }
+        ]
+    },
+    {
+        "type": "page",
+        "path": "/news/2022-06-23-r3-grants-list",
+        "name": "news2022-06-23-r3-grants-list",
+        "title": "ICJIA Awards $45 Million in Restore, Reinvest, and Renew (R3) Program Grants",
+        "summary": "CHICAGO—Using revenue from adult-use, recreational cannabis sales, the Illinois Criminal Justice Information Authority (ICJIA) today announced $45 million in grant funding that will support 148 programs run by organizations in communities hardest hit by the failed war on drugs.",
+        "headings": []
+    },
+    {
+        "type": "page",
+        "path": "/news/2022-08-17-debrief-deadline",
+        "name": "news2022-08-17-debrief-deadline",
+        "title": "NOFO application debrief deadline extended",
+        "summary": "Opportunities for applicants to receive feedback on applications that were not selected for funding as a result of the recent R3 NOFO are still open.",
+        "headings": []
+    },
+    {
+        "type": "page",
+        "path": "/news/2022-10-13-language-access",
+        "name": "news2022-10-13-language-access",
+        "title": "Language Services Announcement",
+        "summary": "To support its goals of being inclusive and accessible to all, ICJIA provides free language assistance services to individuals whose primary language is not English. Language assistance services include providing qualified interpreters and translating documents to ease access to important information about ICJIA programs, benefits, and activities. These services are available in various languages.",
+        "headings": [
+            {
+                "heading": "Additional Translation Resources",
+                "target": "icjia-additional-translation-resources"
+            }
+        ]
+    },
+    {
+        "type": "page",
+        "path": "/resources",
+        "name": "resources",
+        "title": "Resources",
+        "summary": "R3 Resources and Analysis.",
+        "headings": [
+            {
+                "heading": "General Information (Spanish)",
+                "target": "icjia-general-information-spanish"
+            },
+            {
+                "heading": "Helpful Links",
+                "target": "icjia-helpful-links"
+            },
+            {
+                "heading": "R3 NOFO Instructions and Appendices",
+                "target": "icjia-r3-nofo-instructions-and-appendices"
+            },
+            {
+                "heading": "AmpliFund Applicant Portal Guide and Tip Sheet",
+                "target": "icjia-amplifund-applicant-portal-guide-and-tip-sheet"
+            },
+            {
+                "heading": "NOFO Informational Webinars",
+                "target": "icjia-nofo-informational-webinars"
+            },
+            {
+                "heading": "Prequalification Steps",
+                "target": "icjia-prequalification-steps"
+            },
+            {
+                "heading": "ICJIA YouTube links",
+                "target": "icjia-icjia-youtube-links"
+            },
+            {
+                "heading": "R3 Legislative Language: The legislation establishing the R3 program, from HB1438 Section 10-40",
+                "target": "icjia-r3-legislative-language-the-legislation-establishing-the-r3-program-from-hb1438-section-10-40"
+            },
+            {
+                "heading": "Contact Us",
+                "target": "icjia-contact-us"
+            },
+            {
+                "heading": "ICJIA Research",
+                "target": "icjia-icjia-research"
+            }
+        ]
+    },
+    {
+        "type": "page",
+        "path": "/search",
+        "name": "search",
+        "title": "Search",
+        "summary": "R3 site search",
+        "headings": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/01.21.21_ICJIA_R3_Grants_Release_Final.pdf",
+        "name": "01.21.21_ICJIA_R3_Grants_Release_Final.pdf",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/07.16.21ICJIASummerViolenceGrantsRelease.pdf",
+        "name": "07.16.21ICJIASummerViolenceGrantsRelease.pdf",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/9222021MinutesNOFOWorkgroup.docx",
+        "name": "9222021MinutesNOFOWorkgroup.docx",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/9232021MinutesNOFOWorkgroup.docx",
+        "name": "9232021MinutesNOFOWorkgroup.docx",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/ABOUT_ICJIA_FLYER_2021_Spanish.pdf",
+        "name": "ABOUT_ICJIA_FLYER_2021_Spanish.pdf",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/AgendaNOFOWorkgroup10062021.docx",
+        "name": "AgendaNOFOWorkgroup10062021.docx",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/AgendaNOFOWorkgroup10122021.docx",
+        "name": "AgendaNOFOWorkgroup10122021.docx",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/AgendaNOFOWorkgroup10132021.docx",
+        "name": "AgendaNOFOWorkgroup10132021.docx",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/AmpliFundApplicantPortalGuide.pdf",
+        "name": "AmpliFundApplicantPortalGuide.pdf",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/AmpliFundNavigationTechnicalAssistance.pdf",
+        "name": "AmpliFundNavigationTechnicalAssistance.pdf",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/Attachments1through12SFY2023R3FundingRecommendationsfortheBoardMeeting6.14.2022.pdf",
+        "name": "Attachments1through12SFY2023R3FundingRecommendationsfortheBoardMeeting6.14.2022.pdf",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/Attachments1to12SFY2023R3FundingRecommendationsBoardMeeting06162022.pdf",
+        "name": "Attachments1to12SFY2023R3FundingRecommendationsBoardMeeting06162022.pdf",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/EligibleAreasCensusTracts.csv",
+        "name": "EligibleAreasCensusTracts.csv",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/EligibleAreasCensusTracts.json",
+        "name": "EligibleAreasCensusTracts.json",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/EligibleAreasCensusTracts_YR2.csv",
+        "name": "EligibleAreasCensusTracts_YR2.csv",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/EligibleAreasCensusTracts_YR2.json",
+        "name": "EligibleAreasCensusTracts_YR2.json",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/ICJIAUniformBudgetTemplateforR3Grants.xlsx",
+        "name": "ICJIAUniformBudgetTemplateforR3Grants.xlsx",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/Language-Services-Announcement-ICJIA.9.26.2022_Arabic_final.docx",
+        "name": "Language-Services-Announcement-ICJIA.9.26.2022_Arabic_final.docx",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/Language-Services-Announcement-ICJIA.9.26.2022_Chinese_final.docx",
+        "name": "Language-Services-Announcement-ICJIA.9.26.2022_Chinese_final.docx",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/Language-Services-Announcement-ICJIA.9.26.2022_Hindi_final.docx",
+        "name": "Language-Services-Announcement-ICJIA.9.26.2022_Hindi_final.docx",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/Language-Services-Announcement-ICJIA.9.26.2022_Polish_final.docx",
+        "name": "Language-Services-Announcement-ICJIA.9.26.2022_Polish_final.docx",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/Language-Services-Announcement-ICJIA.9.26.2022_Spanish_final.docx",
+        "name": "Language-Services-Announcement-ICJIA.9.26.2022_Spanish_final.docx",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/Language-Services-Announcement-ICJIA.9.26.2022_Tagalog_final.docx",
+        "name": "Language-Services-Announcement-ICJIA.9.26.2022_Tagalog_final.docx",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/LoggingintoAmpliFundAugust21.pdf",
+        "name": "LoggingintoAmpliFundAugust21.pdf",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/MinutesNOFOWorkgroup10012021.docx",
+        "name": "MinutesNOFOWorkgroup10012021.docx",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/MinutesNOFOWorkgroup1006021.docx",
+        "name": "MinutesNOFOWorkgroup1006021.docx",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/MinutesNOFOWorkgroup10122021.docx",
+        "name": "MinutesNOFOWorkgroup10122021.docx",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/MinutesNOFOWorkgroup9292021.docx",
+        "name": "MinutesNOFOWorkgroup9292021.docx",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/NOFOWorkingGroupAgenda09292021.docx",
+        "name": "NOFOWorkingGroupAgenda09292021.docx",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/NOFOWorkingGroupAgenda10012021.docx",
+        "name": "NOFOWorkingGroupAgenda10012021.docx",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/NOFOWorkingGroupAgendawithlink-9.22.2021.docx",
+        "name": "NOFOWorkingGroupAgendawithlink-9.22.2021.docx",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/NOFOWorkingGroupAgendawithlink-9.23.2021.docx",
+        "name": "NOFOWorkingGroupAgendawithlink-9.23.2021.docx",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/R3Agenda06142022.pdf",
+        "name": "R3Agenda06142022.pdf",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/R3Agenda06162022.pdf",
+        "name": "R3Agenda06162022.pdf",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/R3LegislativeLanguage.pdf",
+        "name": "R3LegislativeLanguage.pdf",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/R3Minutes06072022.pdf",
+        "name": "R3Minutes06072022.pdf",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/R3Minutes10252022.pdf",
+        "name": "R3Minutes10252022.pdf",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/R3NOFOAppendixA.pdf",
+        "name": "R3NOFOAppendixA.pdf",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/R3NOFOBudgetTASession.pdf",
+        "name": "R3NOFOBudgetTASession.pdf",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/R3NOFOCollaborativeApplicantsTASession.pdf",
+        "name": "R3NOFOCollaborativeApplicantsTASession.pdf",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/R3NOFOPerformancePlanWebinar.pdf",
+        "name": "R3NOFOPerformancePlanWebinar.pdf",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/R3NOFOQuestionsandAnswers.pdf",
+        "name": "R3NOFOQuestionsandAnswers.pdf",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/R3NOFOTASession.pdf",
+        "name": "R3NOFOTASession.pdf",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/R3NOFOWebinar.pdf",
+        "name": "R3NOFOWebinar.pdf",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/R3PCBNOFOAppendixB.pdf",
+        "name": "R3PCBNOFOAppendixB.pdf",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/R3PCBNOFOAppendixC.pdf",
+        "name": "R3PCBNOFOAppendixC.pdf",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/R3PCBNOFOInstructions.pdf",
+        "name": "R3PCBNOFOInstructions.pdf",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/R3ProgramBoardMembers.pdf",
+        "name": "R3ProgramBoardMembers.pdf",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/R3SDNOFOAppendixB.pdf",
+        "name": "R3SDNOFOAppendixB.pdf",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/R3SDNOFOAppendixC.pdf",
+        "name": "R3SDNOFOAppendixC.pdf",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/R3SDNOFOInstructions.pdf",
+        "name": "R3SDNOFOInstructions.pdf",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/R3_Factsheet_Spanish_Final.pdf",
+        "name": "R3_Factsheet_Spanish_Final.pdf",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/R3_Status_Update_9.25.20.pdf",
+        "name": "R3_Status_Update_9.25.20.pdf",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/R3_site_table_V2.csv",
+        "name": "R3_site_table_V2.csv",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/R3_site_table_V2.json",
+        "name": "R3_site_table_V2.json",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/R3agenda01312022.pdf",
+        "name": "R3agenda01312022.pdf",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/R3agenda06072022.pdf",
+        "name": "R3agenda06072022.pdf",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/R3agenda10272022.pdf",
+        "name": "R3agenda10272022.pdf",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/R3agendaAttachmentA06072022.pdf",
+        "name": "R3agendaAttachmentA06072022.pdf",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/Reviewer_Requirements_d802a8a349.docx",
+        "name": "Reviewer_Requirements_d802a8a349.docx",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/SFY21R3NOFOQuestions.pdf",
+        "name": "SFY21R3NOFOQuestions.pdf",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/SFY_23_R3_Grants_List_4a515603da.pdf",
+        "name": "SFY_23_R3_Grants_List_4a515603da.pdf",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/SubmissionTipZipFile.pdf",
+        "name": "SubmissionTipZipFile.pdf",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/_EligibleAreasCensusTracts.pdf",
+        "name": "_EligibleAreasCensusTracts.pdf",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/translate/TranslateEn.pdf",
+        "name": "TranslateEn.pdf",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/translate/TranslatePo.pdf",
+        "name": "TranslatePo.pdf",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    },
+    {
+        "type": "file",
+        "path": "/downloads/translate/TranslateSp.pdf",
+        "name": "TranslateSp.pdf",
+        "searchMeta": "",
+        "summary": "",
+        "headers": []
+    }
+]

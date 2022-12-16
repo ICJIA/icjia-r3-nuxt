@@ -11,13 +11,14 @@
     "build:serve": "npm run scripts && nuxt build && node .output/server/index.mjs ",
     "create:news": "node ./creators/createMarkdownNews.js",
     "create:pages": "node ./creators/createMarkdownPages.js",
+    "create:searchIndex": "node  ./creators/createSearchIndex.mjs",
     "create:contentDirectory": "node ./creators/createContentDirectory.js",
     "create:sitemap": "node ./creators/createSitemap.mjs",
     "dev": "rm -rf .nuxt && yarn scripts && nuxt dev --port=8000 -o",
     "generate": "yarn scripts && nuxi generate",
     "generate:serve": "yarn scripts && nuxt generate && serve ./dist",
     "preview": "nuxt preview",
-    "scripts": "yarn create:contentDirectory && yarn create:news && yarn create:pages",
+    "scripts": "yarn create:contentDirectory && yarn create:news && yarn create:pages && yarn create:searchIndex",
     "postinstall": "nuxt prepare",
     "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore . --fix",
     "lint": "npm run lint:js"
@@ -82,6 +83,7 @@
     "sitemap": "^7.1.1",
     "slugify": "^1.6.5",
     "thumbor-url-builder": "^0.1.1",
+    "uuid": "^9.0.0",
     "vite-plugin-vuetify": "^1.0.0",
     "yaml": "^2.1.3"
   }

@@ -3,8 +3,8 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config\
 
 import vuetify from "vite-plugin-vuetify";
-import newsRoutes from "./public/newsRoutes.json";
-import pageRoutes from "./public/pageRoutes.json";
+import newsRoutes from "./public/routesNews.json";
+import pageRoutes from "./public/routesPages.json";
 const siteRoutes = [...newsRoutes, ...pageRoutes];
 
 console.log(siteRoutes);

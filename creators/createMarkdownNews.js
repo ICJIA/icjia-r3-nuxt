@@ -128,7 +128,7 @@ axios
     });
 
     jsonfile.writeFileSync(
-      `./public/newsRoutes.json`,
+      `./public/routesNews.json`,
       newsRoutes,
       function (err) {
         if (err) {
