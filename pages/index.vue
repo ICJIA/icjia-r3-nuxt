@@ -19,10 +19,19 @@
                 class="grey lighten-2"
                 height="550"
               >
-                <div class="text-center px-12" style="margin-top: 150px">
+                <div class="text-center px-12" style="margin-top: 100px">
                   <h1 class="nofo-title mt-3">{{ item.title }}</h1>
                   <div class="nofo-tagline">
                     {{ item.tagline }}
+                  </div>
+                  <div>
+                    <v-btn
+                      variant="outlined"
+                      color="white"
+                      class="mt-8"
+                      @click="routeToFunding(item)"
+                      >Find out more</v-btn
+                    >
                   </div>
                 </div>
                 <template #placeholder>
@@ -53,28 +62,27 @@
           </v-col></v-row
         ></v-container
       >
-      <div style="background: #fafafa" class="mt-10 pb-12">
-        <v-container
-          fluid
-          style="
-            margin: 0;
-            padding: 0;
-            border-top: 1px solid #aaa;
-            min-height: 30vh;
-          "
-        >
+      <div
+        class="mt-10 pb-12"
+        style="
+          background: #fafafa;
+          border-top: 1px solid #aaa;
+          min-height: 30vh;
+        "
+      >
+        <v-container fluid>
           <v-row>
-            <v-col cols="12" md="6"> The Tool boxes here </v-col>
+            <v-col cols="12" md="6"><h2>Applicant Tools</h2> </v-col>
             <v-col cols="12" md="6">
-              <h2>R3 News</h2>
+              <h2>News & Updates</h2>
               <!-- <div v-if="test">{{ test[0].title }}</div> -->
 
               <v-card
-                v-for="item in homeNews"
+                v-for="item in sortedNews"
                 :key="item.id"
                 elevation="1"
                 class="px-5 py-3 mb-3"
-                @click="routeTo(item)"
+                @click="routeToNews(item)"
               >
                 <div style="font-size: 12px; font-weight: 700">
                   {{ formatDate(item.createdAt) }}
@@ -90,6 +98,11 @@
                 </h3>
                 <p>{{ item.summary }}</p>
               </v-card>
+              <div class="text-center mt-10">
+                <nuxt-link to="/news" class="home-link"
+                  >News archive&nbsp;&raquo;</nuxt-link
+                >
+              </div>
             </v-col></v-row
           ></v-container
         >
@@ -130,16 +143,15 @@ const redirect = () => {
   router.push("/404");
 };
 
-let sortedNews = ref([]);
-sortedNews = news.value.map((item) => {
-  return item.title;
-});
-const test = _.orderBy(news.value, ["createdAt"], ["desc"]);
-const homeNews = test.slice(0, 3);
+let sortedNews = _.orderBy(news.value, ["createdAt"], ["desc"]);
+sortedNews = sortedNews.slice(0, 3);
 
-const routeTo = (item) => {
-  // console.table(item.slug);
+const routeToNews = (item) => {
   router.push(`/news/${item.slug}`);
+};
+
+const routeToFunding = (item) => {
+  alert("Route to funding info here");
 };
 
 const formatDate = (date) => {
@@ -152,14 +164,15 @@ const formatDate = (date) => {
 };
 
 onMounted(() => {
-  // console.log("mounted: ", news.value);
-
   isMounted.value = true;
-  // console.log("sortedNews: ", sortedNews);
 });
 </script>
 
 <style>
+a.home-link {
+  color: #333;
+}
+
 .nofo-tagline {
   color: #fff;
 }
