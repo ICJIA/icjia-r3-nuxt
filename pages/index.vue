@@ -71,9 +71,22 @@
               <v-card
                 v-for="item in test"
                 :key="item.id"
+                elevation="1"
                 class="px-5 py-3 mb-3"
+                @click="routeTo(item)"
               >
-                <h3>{{ item.title }}</h3>
+                <div style="font-size: 12px; font-weight: 700">
+                  {{ formatDate(item.createdAt) }}
+                </div>
+                <h3
+                  style="
+                    border-bottom: 1px solid #ddd;
+                    padding-bottom: 8px;
+                    margin-bottom: 20px;
+                  "
+                >
+                  {{ item.title }}
+                </h3>
                 <p>{{ item.summary }}</p>
               </v-card>
             </v-col></v-row
@@ -123,6 +136,20 @@ sortedNews = news.value.map((item) => {
 
 const test = _.orderBy(news.value, ["createdAt"], ["desc"]);
 console.dir(test);
+
+const routeTo = (item) => {
+  // console.table(item.slug);
+  router.push(`/news/${item.slug}`);
+};
+
+const formatDate = (date) => {
+  const options = {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  };
+  return new Date(date).toLocaleDateString("en-US", options);
+};
 
 onMounted(() => {
   // console.log("mounted: ", news.value);
