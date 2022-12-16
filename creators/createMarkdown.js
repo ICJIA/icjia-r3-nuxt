@@ -33,6 +33,7 @@ const query = `query {
           updatedAt
           publishedAt
           searchMeta
+          showTableOfContents
         }
       }
     }

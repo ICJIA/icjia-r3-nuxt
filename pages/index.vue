@@ -97,6 +97,11 @@
                   {{ item.title }}
                 </h3>
                 <p>{{ item.summary }}</p>
+                <div class="text-right">
+                  <v-btn text small variant="text" :to="item.path"
+                    >Read more
+                  </v-btn>
+                </div>
               </v-card>
               <div class="text-center mt-10">
                 <nuxt-link to="/news" class="home-link"
