@@ -123,6 +123,20 @@ axios
 
     // console.log("site.json created in /public/");
 
+    const newsRoutes = site.map((post) => {
+      return `/news/${post.attributes.slug}`;
+    });
+
+    jsonfile.writeFileSync(
+      `./public/newsRoutes.json`,
+      newsRoutes,
+      function (err) {
+        if (err) {
+          console.error(err);
+        }
+      }
+    );
+
     site.forEach((post) => {
       if (post.attributes.section === "root") {
         section = "";

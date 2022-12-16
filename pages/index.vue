@@ -70,7 +70,7 @@
               <!-- <div v-if="test">{{ test[0].title }}</div> -->
 
               <v-card
-                v-for="item in test"
+                v-for="item in homeNews"
                 :key="item.id"
                 elevation="1"
                 class="px-5 py-3 mb-3"
@@ -121,7 +121,7 @@ const { data } = await useAsyncData(`content-home`, async () => {
   return post;
 });
 const { data: news } = await useAsyncData(`news-${path}`, async () => {
-  const post = await queryContent("/news").limit(3).find();
+  const post = await queryContent("/news").find();
 
   return post;
 });
@@ -134,9 +134,8 @@ let sortedNews = ref([]);
 sortedNews = news.value.map((item) => {
   return item.title;
 });
-
 const test = _.orderBy(news.value, ["createdAt"], ["desc"]);
-// console.dir(test);
+const homeNews = test.slice(0, 3);
 
 const routeTo = (item) => {
   // console.table(item.slug);

@@ -122,6 +122,20 @@ axios
 
     // console.log("site.json created in /public/");
 
+    const pageRoutes = site.map((item) => {
+      return `/${item.attributes.slug}`;
+    });
+
+    jsonfile.writeFileSync(
+      `./public/pageRoutes.json`,
+      pageRoutes,
+      function (err) {
+        if (err) {
+          console.error(err);
+        }
+      }
+    );
+
     site.forEach((page) => {
       if (page.attributes.section === "root") {
         section = "";

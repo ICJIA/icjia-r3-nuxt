@@ -3,6 +3,12 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config\
 
 import vuetify from "vite-plugin-vuetify";
+import newsRoutes from "./public/newsRoutes.json";
+import pageRoutes from "./public/pageRoutes.json";
+const siteRoutes = [...newsRoutes, ...pageRoutes];
+
+console.log(siteRoutes);
+
 export default defineNuxtConfig({
   app: {
     head: {
@@ -123,6 +129,6 @@ export default defineNuxtConfig({
     },
   },
   generate: {
-    routes: ["/news/test-post-1", "/news/test-post-2", "/news/test-post-3"],
+    routes: siteRoutes,
   },
 });
