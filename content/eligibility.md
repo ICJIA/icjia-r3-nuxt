@@ -11,7 +11,7 @@ rawText: "this is the page body for eligibility "
 draft: false
 navigation: true
 path: /eligibility
-url: https://r3.icjia.dev/eligibility
+url: https://r3dev.icjia.dev/eligibility
 ---
 
 This is the page body for 'Eligibility'

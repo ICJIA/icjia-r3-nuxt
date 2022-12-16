@@ -11,7 +11,7 @@ rawText: this is the body for funding opportunities
 draft: false
 navigation: true
 path: /apply
-url: https://r3.icjia.dev/apply
+url: https://r3dev.icjia.dev/apply
 ---
 
 This is the body for funding opportunities

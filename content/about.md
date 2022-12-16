@@ -11,7 +11,7 @@ rawText: "this is the body for the about page "
 draft: false
 navigation: true
 path: /about
-url: https://r3.icjia.dev/about
+url: https://r3dev.icjia.dev/about
 ---
 
 This is the body for the about page.

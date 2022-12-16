@@ -210,8 +210,23 @@
 </template>
 
 <script setup>
+// const googleTranslate = (lang) => {
+//   alert("Trigger translation here. \n\n" + "Language: " + lang);
+// };
 const googleTranslate = (lang) => {
-  alert("Trigger translation here. \n\n" + "Language: " + lang);
+  const { root } = useAppConfig();
+  const { fullPath, href } = useRoute();
+  // console.log("site root: ", root);
+  // console.log("language target: ", lang);
+  // console.log("full path: ", fullPath);
+  // console.log("href: ", href);
+  // const route = `${root}${fullPath}`;
+  const route = `${root}`;
+  const url =
+    `https://translate.google.com/translate?hl=en&sl=en&u=${route}&tl=` + lang;
+  window.open(url);
+  // console.log(url);
+  // alert("Trigger Google translation here. \n\n" + "URL: " + url);
 };
 </script>
 

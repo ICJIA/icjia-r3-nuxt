@@ -1199,7 +1199,7 @@ rawText: " frequently asked questions faqs r3 grants current round of funding
 draft: false
 navigation: true
 path: /faqs
-url: https://r3.icjia.dev/faqs
+url: https://r3dev.icjia.dev/faqs
 ---
 
 

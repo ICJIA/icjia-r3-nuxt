@@ -23,7 +23,7 @@ rawText: " r3 resources general information spanish r3 factsheet spanish https
 draft: false
 navigation: true
 path: /resources
-url: https://r3.icjia.dev/resources
+url: https://r3dev.icjia.dev/resources
 ---
 
 # R3 Resources

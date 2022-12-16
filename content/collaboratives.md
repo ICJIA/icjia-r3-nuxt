@@ -44,7 +44,7 @@ rawText: " collaboratives collaboratives are groups of two or more organizations
 draft: false
 navigation: true
 path: /collaboratives
-url: https://r3.icjia.dev/collaboratives
+url: https://r3dev.icjia.dev/collaboratives
 ---
 
 # Collaboratives

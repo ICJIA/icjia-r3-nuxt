@@ -2,7 +2,7 @@ export default defineAppConfig({
   title: "R3 (R3)",
   description: "R3 description.",
   api: "https://r3.icjia-api.cloud",
-  root: "https://r3.icjia.dev",
+  root: "https://r3dev.icjia.dev",
 
   splash: [
     {

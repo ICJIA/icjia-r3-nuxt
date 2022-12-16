@@ -11,7 +11,7 @@ rawText: this is the page body for contact
 draft: false
 navigation: true
 path: /contact
-url: https://r3.icjia.dev/contact
+url: https://r3dev.icjia.dev/contact
 ---
 
 This is the page body for contact

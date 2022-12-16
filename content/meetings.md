@@ -17,7 +17,7 @@ rawText: " r3 meetings agendas r3 program board agenda 10 27 2022 https r3 icjia
 draft: false
 navigation: true
 path: /meetings
-url: https://r3.icjia.dev/meetings
+url: https://r3dev.icjia.dev/meetings
 ---
 
 # R3 Meetings

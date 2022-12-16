@@ -34,7 +34,7 @@ rawText: " board composition download pdf of board members https r3 icjia api
 draft: false
 navigation: true
 path: /board
-url: https://r3.icjia.dev/board
+url: https://r3dev.icjia.dev/board
 ---
 
 # Board Composition

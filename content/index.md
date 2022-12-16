@@ -24,7 +24,7 @@ rawText: " r3 restore reinvest renew r3 grants fund programs in illinois
 draft: false
 navigation: true
 path: /
-url: https://r3.icjia.dev
+url: https://r3dev.icjia.dev
 ---
 
 # R3 RESTORE. REINVEST. RENEW.
