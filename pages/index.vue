@@ -77,7 +77,7 @@
               <v-container style="margin: 0; padding: 0" class="mt-3">
                 <v-row>
                   <v-col
-                    v-for="(card, index) in 4"
+                    v-for="(item, index) in tools"
                     :key="index"
                     cols="12"
                     sm="12"
@@ -88,14 +88,15 @@
                       color="#04456b"
                       class="hover info-card px-5 py-5"
                       height="250px"
+                      @click="routeToTool(item.link)"
                     >
                       <div class="d-flex flex-no-wrap justify-space-between">
                         <div>
-                          <h2 style="color: #fff">Card Title here</h2>
+                          <h2 style="color: #fff">{{ item.title }}</h2>
 
-                          <v-card-subtitle style="font-size: 14px; color: #eee">
-                            card summary here
-                          </v-card-subtitle>
+                          <div style="font-size: 14px; color: #eee">
+                            {{ item.tagline }}
+                          </div>
                         </div>
 
                         <!-- <v-avatar class="ma-3" size="125" tile>
@@ -169,7 +170,7 @@
 
 <script setup>
 import _ from "lodash";
-const { splash } = useAppConfig();
+const { splash, tools } = useAppConfig();
 const { path } = useRoute();
 const router = useRouter();
 const isMounted = ref(false);
@@ -198,6 +199,10 @@ const routeToNews = (item) => {
 
 const routeToFunding = (item) => {
   alert("Route to funding info here");
+};
+
+const routeToTool = (item) => {
+  router.push(`${item}`);
 };
 
 const formatDate = (date) => {

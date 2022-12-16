@@ -22,6 +22,29 @@ export default defineAppConfig({
         "Grants to provide services to repair the harm caused by economic disinvestment, violence, and the war on drugs",
     },
   ],
+  tools: [
+    {
+      title: "Eligibility",
+      tagline: "Find out if you're eligible to apply for funding",
+      link: "/eligibility",
+    },
+    {
+      title: "FAQs",
+      tagline: "Frequently asked questions about R3 funding",
+      link: "/faqs",
+    },
+    {
+      title: "Collaboratives",
+      tagline:
+        "Groups of two or more organization that apply for funding for a single cooperative program under one application",
+      link: "/collaboratives",
+    },
+    {
+      title: "Resources",
+      tagline: "R3 resources and analysis",
+      link: "/resources",
+    },
+  ],
   navMenu: [
     {
       main: "Home",
