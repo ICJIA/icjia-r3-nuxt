@@ -2,10 +2,10 @@
 title: Test Post 3
 slug: test-post-3
 summary: This is the summary for test post 3
-showTableOfContents: false
+showTableOfContents: true
 section: news
 createdAt: 2022-12-16T13:56:55.767Z
-updatedAt: 2022-12-16T16:55:57.255Z
+updatedAt: 2022-12-17T17:45:26.318Z
 publishedAt: 2022-12-16T13:57:01.367Z
 searchMeta: null
 rawText: " hypsea ante iramque ales lorem markdownum flectunt quoque dum cremat
