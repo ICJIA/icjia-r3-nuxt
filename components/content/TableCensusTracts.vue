@@ -116,7 +116,6 @@ function doubleScroll(element) {
 }
 
 useHead({
-  title: "Sandbox",
   bodyAttrs: {},
   link: [],
   script: [],
