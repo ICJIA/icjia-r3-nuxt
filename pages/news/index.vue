@@ -9,7 +9,7 @@
             <v-card
               v-for="(item, index) in sortedNews"
               :key="index"
-              color="grey-lighten-4"
+              style="background: #fafafa"
               class="px-5 py-10 my-10 info-card"
               @click="routeToNews(item.path)"
             >
@@ -18,6 +18,13 @@
               </div>
               <h2 class="mt-5">{{ item.title }}</h2>
               <div class="mt-8">{{ item.summary }}</div>
+              <v-card-actions>
+                <v-spacer></v-spacer>
+
+                <v-btn size="small" :to="item.path"
+                  >Read more&nbsp;&raquo;</v-btn
+                >
+              </v-card-actions>
             </v-card>
           </div>
         </v-col></v-row

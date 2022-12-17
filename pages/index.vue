@@ -135,7 +135,9 @@
                   {{ item.title }}
                 </h3>
                 <p>{{ item.summary }}</p>
-                <div class="text-right">
+                <v-card-actions>
+                  <v-spacer></v-spacer>
+
                   <v-btn
                     size="x-small"
                     variant="text"
@@ -143,7 +145,7 @@
                     style="font-weight: 900"
                     >Read more&nbsp;&raquo;</v-btn
                   >
-                </div>
+                </v-card-actions>
               </v-card>
               <div class="text-center mt-10">
                 <nuxt-link to="/news" class="home-link"
