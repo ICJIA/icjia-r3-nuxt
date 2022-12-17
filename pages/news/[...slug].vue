@@ -20,7 +20,7 @@ const cols = ref(12);
 onMounted(() => {
   if (data.value.showTableOfContents) {
     showTOC.value = true;
-    cols.value = 8;
+    cols.value = 9;
   }
 });
 </script>
@@ -48,7 +48,7 @@ onMounted(() => {
           <v-col
             v-if="showTOC"
             cols="12"
-            md="4"
+            md="3"
             style="min-height: 40vh !important"
             class="hidden-sm-and-down"
           >

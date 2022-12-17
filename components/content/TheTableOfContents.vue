@@ -1,14 +1,18 @@
 <template>
-  <div>
+  <div class="mt-0">
     <v-card
       elevation="0"
       class="toc px-5 py-5 markdown-body"
-      style="background: #fafafa"
+      style="border-left: 0px solid #eee"
     >
-      <h2>TODO: Table of Contents</h2>
-
-      <strong>Table of Contents: <br /> </strong>
-
+      <h2>Table of Contents</h2>
+      <div v-for="(item, index) in props.data.links" :key="index">
+        <div :id="`toc-${item.id}`" class="mb-3">
+          {{ item.text }}
+        </div>
+      </div>
+      <br /><br />
+      Debug:<br />
       {{ props.data }}
     </v-card>
   </div>
@@ -18,6 +22,9 @@
 const props = defineProps({
   data: Object,
 });
+window.onscroll = function () {
+  // console.log("scrolling");
+};
 </script>
 
 <style>
@@ -50,7 +57,7 @@ const props = defineProps({
 .toc {
   position: -webkit-sticky !important;
   position: sticky !important;
-  top: 185px !important;
+  top: 115px !important;
   font-size: 14px !important;
 }
 
