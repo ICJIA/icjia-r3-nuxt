@@ -28,8 +28,9 @@
                     <v-btn
                       variant="outlined"
                       color="white"
-                      class="mt-8"
-                      @click="routeToFunding(item)"
+                      class="mt-8 button-href"
+                      target="_blank"
+                      :href="item.externalURL"
                       >Find out more</v-btn
                     >
                   </div>
@@ -222,6 +223,15 @@ onMounted(() => {
 </script>
 
 <style>
+.button-href .v-btn__content {
+  font-weight: 700 !important;
+  text-decoration: none !important;
+}
+
+.button-href:hover .v-btn__content {
+  text-decoration: none !important;
+}
+
 a.home-link {
   color: #333;
 }

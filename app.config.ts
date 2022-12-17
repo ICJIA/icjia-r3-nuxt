@@ -6,6 +6,8 @@ export default defineAppConfig({
 
   splash: [
     {
+      externalURL:
+        "https://icjia.illinois.gov/grants/funding/restore-reinvest-and-renew-r3-program-r3-planning-and-capacity-building/",
       src: "https://r3.icjia-api.cloud/uploads/medium_new_splash_01_0ca141e7db.jpg?updated_at=2022-12-15T16:26:21.124Z",
       lazySrc:
         "https://r3.icjia-api.cloud/uploads/thumbnail_new_splash_01_0ca141e7db.jpg",
@@ -14,6 +16,8 @@ export default defineAppConfig({
         "Grants to provide funds for organizations to develop a community plan for service provision or to build their own internal capacity to provide services.",
     },
     {
+      externalURL:
+        "https://icjia.illinois.gov/grants/funding/restore-reinvest-and-renew-r3-program-r3-service-delivery/",
       src: "https://r3.icjia-api.cloud/uploads/medium_new_splash_03_9b9975cfc5.jpg?updated_at=2022-12-16T00:42:02.049Z",
       lazySrc:
         "https://r3.icjia-api.cloud/uploads/thumbnail_new_splash_03_9b9975cfc5.jpg?updated_at=2022-12-16T00:42:02.049Z",
