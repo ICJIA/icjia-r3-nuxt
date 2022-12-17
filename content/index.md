@@ -1,13 +1,11 @@
 ---
 title: "Restore, Reinvest, Renew: R3"
 slug: index
-summary: The communities that are eligible for R3 funding were identified, in
-  part, by their rates of gun injuries, child poverty, unemployment and
-  incarceration. [View this map](/eligibility) to see if organizations in your
-  community are eligible for an R3 grant.
+summary: R3 grants fund programs in Illinois communities that have been harmed
+  by violence, excessive incarceration, and economic disinvestment.
 section: root
 createdAt: 2022-12-14T13:55:39.095Z
-updatedAt: 2022-12-15T13:16:59.970Z
+updatedAt: 2022-12-17T00:05:58.926Z
 publishedAt: 2022-12-14T13:57:03.523Z
 searchMeta: null
 rawText: " r3 restore reinvest renew r3 grants fund programs in illinois

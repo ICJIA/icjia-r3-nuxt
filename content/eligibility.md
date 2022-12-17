@@ -1,10 +1,17 @@
 ---
 title: Eligibility
 slug: eligibility
-summary: This is the summary for eligibility
+summary: In order to be eligible, organizations must have a DUNS number, a
+  SAM.gov account, a Grants.gov account, be in good standing with the Illinois
+  Secretary of State, and not be on the state no-pay list (See Prequalification
+  Steps for details). Common types of eligible applicants are nonprofit
+  organizations, local units of government, and tax-exempt faith-based
+  organizations. Other organizations may also be eligible to join the proposed
+  program as members of a collaborative. Click here to learn more about
+  collaboratives in the R3 program.
 section: root
 createdAt: 2022-12-14T16:18:02.224Z
-updatedAt: 2022-12-16T23:26:10.346Z
+updatedAt: 2022-12-17T15:53:21.205Z
 publishedAt: 2022-12-14T16:18:03.474Z
 searchMeta: null
 rawText: " eligible applicants in order to be eligible organizations must have a
@@ -33,7 +40,7 @@ rawText: " eligible applicants in order to be eligible organizations must have a
   r3 zone id and funding information needed for the grant application s program
   narrative tip after searching for and locating an address you may need to zoom
   out before you determine whether that address is in an r3 zone or not insert
-  census map here r3 table insert table here analysis areas eligible to apply
+  census map here r3 table table census tracts analysis areas eligible to apply
   for r3 program grants were identified via an analysis of community level data
   on gun injury child poverty unemployment and state prison commitments and
   returns combined with disproportionately impacted areas identified by the
@@ -85,7 +92,8 @@ _Tip:_ After searching for and locating an address, you may need to zoom out (-)
 
 ## R3 Table
 
-**INSERT TABLE HERE**
+:table-census-tracts
+
 
 ## Analysis
 

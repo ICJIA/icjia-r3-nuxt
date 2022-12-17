@@ -7,7 +7,7 @@ import newsRoutes from "./public/routesNews.json";
 import pageRoutes from "./public/routesPages.json";
 const siteRoutes = [...newsRoutes, ...pageRoutes];
 
-console.log(siteRoutes);
+console.log("Generated routes:", siteRoutes);
 
 export default defineNuxtConfig({
   app: {
@@ -17,23 +17,30 @@ export default defineNuxtConfig({
       // title: "Institute to Innovate",
       titleTemplate: "R3 | %s ",
       meta: [
+        { charset: "utf-8" },
+        { name: "viewport", content: "width=device-width, initial-scale=1" },
         {
+          hid: "description",
           name: "description",
-          content: "R3 description here.",
+          content: "R3 Description here",
         },
       ],
       link: [
         { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
-        // {
-        //   rel: "stylesheet",
-        //   href: "https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@400;500;700;900&display=swap",
-        // },
+        {
+          rel: "stylesheet",
+          href: "https://cdn.datatables.net/v/dt/dt-1.13.1/b-2.3.3/b-print-2.3.3/fh-3.3.1/r-2.4.0/sb-1.4.0/sp-2.1.0/datatables.min.css",
+        },
       ],
       script: [
-        // {
-        //   src: "https://code.jquery.com/jquery-3.6.1.slim.min.js",
-        //   type: "text/javascript",
-        // },
+        {
+          src: "https://code.jquery.com/jquery-3.6.1.slim.min.js",
+          type: "text/javascript",
+        },
+        {
+          src: "https://cdn.datatables.net/v/dt/dt-1.13.1/b-2.3.3/b-print-2.3.3/fh-3.3.1/r-2.4.0/sb-1.4.0/sp-2.1.0/datatables.min.js",
+          body: true,
+        },
       ],
     },
   },

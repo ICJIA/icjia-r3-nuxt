@@ -1,9 +1,9 @@
 <template>
-  <div>Sandbox here</div>
+  <div>
+    <table-census-tracts></table-census-tracts>
+  </div>
 </template>
 
-<script setup>
-useHead({
-  title: "Sandbox",
-});
-</script>
+<script setup></script>
+
+<style lang="scss" scoped></style>
