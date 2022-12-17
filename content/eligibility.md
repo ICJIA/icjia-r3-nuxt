@@ -11,7 +11,7 @@ summary: In order to be eligible, organizations must have a DUNS number, a
   collaboratives in the R3 program.
 section: root
 createdAt: 2022-12-14T16:18:02.224Z
-updatedAt: 2022-12-17T15:53:21.205Z
+updatedAt: 2022-12-17T16:13:51.224Z
 publishedAt: 2022-12-14T16:18:03.474Z
 searchMeta: null
 rawText: " eligible applicants in order to be eligible organizations must have a
@@ -39,8 +39,8 @@ rawText: " eligible applicants in order to be eligible organizations must have a
   is within an r3 zone and eligible for funding click the shaded area to see its
   r3 zone id and funding information needed for the grant application s program
   narrative tip after searching for and locating an address you may need to zoom
-  out before you determine whether that address is in an r3 zone or not insert
-  census map here r3 table table census tracts analysis areas eligible to apply
+  out before you determine whether that address is in an r3 zone or not map
+  census tracts r3 table table census tracts analysis areas eligible to apply
   for r3 program grants were identified via an analysis of community level data
   on gun injury child poverty unemployment and state prison commitments and
   returns combined with disproportionately impacted areas identified by the
@@ -86,9 +86,9 @@ Organizations applying for funding do not need to be located within these R3 zon
 
 To find out if an address is eligible for R3 funding, or to get information on an R3 zone for application purposes, enter the address into the search bar (top left) or zoom in (+) on the address on the map. Any address appearing in a color-coded, shaded area is within an R3 zone and eligible for funding. Click the shaded area to see its R3 Zone ID and funding information needed for the grant application's Program Narrative.
 
-_Tip:_ After searching for and locating an address, you may need to zoom out (-) before you determine whether that address is in an R3 zone or not.
+**Tip: ** After searching for and locating an address, you may need to zoom out (-) before you determine whether that address is in an R3 zone or not.
 
-**INSERT CENSUS MAP HERE**
+:map-census-tracts
 
 ## R3 Table
 

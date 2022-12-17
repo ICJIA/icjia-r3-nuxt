@@ -4,40 +4,38 @@ slug: board
 summary: "R3 board members and additional information "
 section: root
 createdAt: 2022-12-14T17:00:36.663Z
-updatedAt: 2022-12-15T17:32:19.330Z
+updatedAt: 2022-12-17T16:09:00.767Z
 publishedAt: 2022-12-14T17:00:37.914Z
 searchMeta: null
-rawText: " board composition download pdf of board members https r3 icjia api
-  cloud uploads r3 program board members e58682d9bd pdf updated at 2022 12 15t14
-  23 31 484z ex officio office lieutenant governor juliana stratton or their
-  designee who shall serve as chair office of the lt governor attorney general
-  kwame raoul or their designee office of the attorney general director sylvia
-  garcia or their designee il dept of commerce and economic opportunity director
-  ngozi ezike or their designee il dept of public health director rob jeffreys
-  or their designee il dept of corrections director heidi mueller or their
-  designee il dept of juvenile justice director marc smith or their designee il
-  dept of children and family services acting director delrice adams or their
-  designee illinois criminal justice information authority director kristin
-  richards or their designee il dept of employment security director grace hou
-  or their designee il dept of human services senator kimberly lightford
-  majority senate representative jehan gordon booth majority house senator jason
-  barickman minority senate representative david welter minority house elected
-  officials pending mayor of rockford tom mcnamara or their designee mayor of
-  champaign deborah frank feinen mayor of aurora richard irvin pending city
-  clerk of chicago anna valencia alderperson susan sadlowski garza alderperson
-  michael scott jr community providers sylvia puente jalon arthur donna crowder
-  michael hubbard experts in violence reduction david olson kathryn bocanegra
-  formerly incarcerated over 24 years of age bethany little marlon chamberlain
-  formerly incarcerated 17 24 years of age anthony montoya pending persons
-  living or working in an r3 area april curtis pablo mendoza senator celina
-  villanueva representative dagmara avelar pending pending pending pending "
+rawText: " download pdf of board members https r3 icjia api cloud uploads r3
+  program board members e58682d9bd pdf updated at 2022 12 15t14 23 31 484z ex
+  officio office lieutenant governor juliana stratton or their designee who
+  shall serve as chair office of the lt governor attorney general kwame raoul or
+  their designee office of the attorney general director sylvia garcia or their
+  designee il dept of commerce and economic opportunity director ngozi ezike or
+  their designee il dept of public health director rob jeffreys or their
+  designee il dept of corrections director heidi mueller or their designee il
+  dept of juvenile justice director marc smith or their designee il dept of
+  children and family services acting director delrice adams or their designee
+  illinois criminal justice information authority director kristin richards or
+  their designee il dept of employment security director grace hou or their
+  designee il dept of human services senator kimberly lightford majority senate
+  representative jehan gordon booth majority house senator jason barickman
+  minority senate representative david welter minority house elected officials
+  pending mayor of rockford tom mcnamara or their designee mayor of champaign
+  deborah frank feinen mayor of aurora richard irvin pending city clerk of
+  chicago anna valencia alderperson susan sadlowski garza alderperson michael
+  scott jr community providers sylvia puente jalon arthur donna crowder michael
+  hubbard experts in violence reduction david olson kathryn bocanegra formerly
+  incarcerated over 24 years of age bethany little marlon chamberlain formerly
+  incarcerated 17 24 years of age anthony montoya pending persons living or
+  working in an r3 area april curtis pablo mendoza senator celina villanueva
+  representative dagmara avelar pending pending pending pending "
 draft: false
 navigation: true
 path: /board
 url: https://r3dev.icjia.dev/board
 ---
-
-# Board Composition
 
 <div class="text-center mt-5">
 

@@ -4,70 +4,69 @@ slug: faqs
 summary: R3 frequently asked questions (FAQs)
 section: root
 createdAt: 2022-12-15T13:36:54.351Z
-updatedAt: 2022-12-15T15:09:42.963Z
+updatedAt: 2022-12-17T16:09:19.378Z
 publishedAt: 2022-12-15T13:36:55.811Z
 searchMeta: FAQ FAQs
-rawText: " frequently asked questions faqs r3 grants current round of funding
-  question and answers posting schedule questions and answers will be posted on
-  a weekly basis questions will be posted each friday questions submissions any
-  questions regarding the current nofos can be emailed to cja r3questions
-  illinois gov mailto cja r3questions illinois gov these questions will be
-  answered via email from that same email account they will also be collected
-  and posted on this page as described above responses to submitted questions
-  updated 2 25 2022 https r3 icjia api cloud uploads r3 nofo questionsand
-  answers 6b7cd8ca02 pdf updated at 2022 12 15t14 23 32 390z note the r3
-  application deadline is march 8 2022 at 2 00 p m this reflects an extension of
-  one week from the initial application deadline of march 1 2022 applicants are
-  encouraged to complete their applications with enough time to address any
-  technical issues that may arise upon application submission having trouble
-  accessing your r3 application in amplifund please review the amplifund login
-  tip sheet for log in steps https r3 illinois gov downloads
-  loggingintoamplifundaugust21 pdf https r3 icjia api cloud uploads logginginto
-  ampli fund august21 a071221af7 pdf updated at 2022 12 15t14 23 33 543z this
-  amplifund walkthrough video also may be helpful https www youtube com watch v
-  ongy3xawjca https www youtube com watch v ongy3xawjca for further assistance
-  please contact the amplifund help desk at 216 377 5500 ext 2 these resources
-  and more are available at https r3 illinois gov resources resources when i go
-  to the r3 website there s a countdown to the application deadline however it
-  seems to give me less time than there really is before the deadline of march 1
-  can you confirm the application due date the due date is march 1 at 2 00 p m
-  cst there are only 28 days in february so the deadline may seem to be coming
-  more quickly than expected please keep that in mind while finalizing your
-  application for submission for the indirect cost rate we plan to include the
-  10 de minimus rate to the total application funding budget is that correct or
-  is there a different required method to assign the indirect cost amount at 10
-  that s correct the budget should include the indirect cost the amount should
-  be included in the budget request can you advise us on the budget category to
-  which a particular cost should be assigned use your best judgment when
-  assigning costs to each category grant applications will be reviewed for
-  content not for inconsequential technical issues such as where budget items
-  are assigned within the ways that the categories are listed in amplifund we
-  are seeking clarity around the non grant funded and total budget sections is
-  the intention for the expense budget for us to adjust our entire spending
-  budget expenses for fy23 to be reflected within the state s budget categories
-  salary fringe benefits supplies etc and then the total should reflect the
-  amount we plan to spend in each of those areas in total i e the sum of the
-  proposed grant funds plus anticipated non grant funded expenses similarly for
-  the revenue budget are we to divide and include our overall organizational
-  annual revenue projected for fy23 into the categories of the state our entire
-  operating budget should be reflected within this budget please disregard non
-  grant funded and revenue sections your application should only discuss grant
-  expenditures to be made in the proposed program will we be asked to upload the
-  budget worksheets in excel to our application if not will the agency approval
-  ffata forms be in the application somewhere i have not seen them in there
-  submit only the amplifund budget no other budget forms are requested or
-  required when applying other forms will be required if your organization is
-  selected for a grant are we able to ask for the full amount for our program
-  costs or do we have to make cash and in kind contributions as well no cash or
-  in kind match contributions are required for this program for the
-  implementation schedule does this include tasks due dates for the
-  implementation of the project or is this tasks due dates for once the program
-  is implemented or both the implementation schedule can include both tasks
-  needed for project implementation and tasks to be completed during the service
-  period of the project is the weekend included in the 48 hr 72 hr advised
-  timeframe for submitting the application prior to the cutoff time of 3 1 22
-  2pm cst yes applicants are encouraged to complete applications with enough
-  time to address any technical issues that may arise upon application
+rawText: " r3 grants current round of funding question and answers posting
+  schedule questions and answers will be posted on a weekly basis questions will
+  be posted each friday questions submissions any questions regarding the
+  current nofos can be emailed to cja r3questions illinois gov mailto cja
+  r3questions illinois gov these questions will be answered via email from that
+  same email account they will also be collected and posted on this page as
+  described above responses to submitted questions updated 2 25 2022 https r3
+  icjia api cloud uploads r3 nofo questionsand answers 6b7cd8ca02 pdf updated at
+  2022 12 15t14 23 32 390z note the r3 application deadline is march 8 2022 at 2
+  00 p m this reflects an extension of one week from the initial application
+  deadline of march 1 2022 applicants are encouraged to complete their
+  applications with enough time to address any technical issues that may arise
+  upon application submission having trouble accessing your r3 application in
+  amplifund please review the amplifund login tip sheet for log in steps https
+  r3 illinois gov downloads loggingintoamplifundaugust21 pdf https r3 icjia api
+  cloud uploads logginginto ampli fund august21 a071221af7 pdf updated at 2022
+  12 15t14 23 33 543z this amplifund walkthrough video also may be helpful https
+  www youtube com watch v ongy3xawjca https www youtube com watch v ongy3xawjca
+  for further assistance please contact the amplifund help desk at 216 377 5500
+  ext 2 these resources and more are available at https r3 illinois gov
+  resources resources when i go to the r3 website there s a countdown to the
+  application deadline however it seems to give me less time than there really
+  is before the deadline of march 1 can you confirm the application due date the
+  due date is march 1 at 2 00 p m cst there are only 28 days in february so the
+  deadline may seem to be coming more quickly than expected please keep that in
+  mind while finalizing your application for submission for the indirect cost
+  rate we plan to include the 10 de minimus rate to the total application
+  funding budget is that correct or is there a different required method to
+  assign the indirect cost amount at 10 that s correct the budget should include
+  the indirect cost the amount should be included in the budget request can you
+  advise us on the budget category to which a particular cost should be assigned
+  use your best judgment when assigning costs to each category grant
+  applications will be reviewed for content not for inconsequential technical
+  issues such as where budget items are assigned within the ways that the
+  categories are listed in amplifund we are seeking clarity around the non grant
+  funded and total budget sections is the intention for the expense budget for
+  us to adjust our entire spending budget expenses for fy23 to be reflected
+  within the state s budget categories salary fringe benefits supplies etc and
+  then the total should reflect the amount we plan to spend in each of those
+  areas in total i e the sum of the proposed grant funds plus anticipated non
+  grant funded expenses similarly for the revenue budget are we to divide and
+  include our overall organizational annual revenue projected for fy23 into the
+  categories of the state our entire operating budget should be reflected within
+  this budget please disregard non grant funded and revenue sections your
+  application should only discuss grant expenditures to be made in the proposed
+  program will we be asked to upload the budget worksheets in excel to our
+  application if not will the agency approval ffata forms be in the application
+  somewhere i have not seen them in there submit only the amplifund budget no
+  other budget forms are requested or required when applying other forms will be
+  required if your organization is selected for a grant are we able to ask for
+  the full amount for our program costs or do we have to make cash and in kind
+  contributions as well no cash or in kind match contributions are required for
+  this program for the implementation schedule does this include tasks due dates
+  for the implementation of the project or is this tasks due dates for once the
+  program is implemented or both the implementation schedule can include both
+  tasks needed for project implementation and tasks to be completed during the
+  service period of the project is the weekend included in the 48 hr 72 hr
+  advised timeframe for submitting the application prior to the cutoff time of 3
+  1 22 2pm cst yes applicants are encouraged to complete applications with
+  enough time to address any technical issues that may arise upon application
   submission keep in mind that the amplifund help desk is not open on weekends
   we are part of a collaborative application that will be submitted by another
   organization our collaborative partner has the green light for everything on
@@ -1202,9 +1201,6 @@ path: /faqs
 url: https://r3dev.icjia.dev/faqs
 ---
 
-
-
-# Frequently Asked Questions (FAQs)
 
 ## R3 Grants -- Current Round of Funding
 

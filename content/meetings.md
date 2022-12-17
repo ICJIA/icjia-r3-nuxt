@@ -4,12 +4,12 @@ slug: meetings
 summary: R3 meetings
 section: root
 createdAt: 2022-12-15T13:56:11.172Z
-updatedAt: 2022-12-15T15:15:32.372Z
+updatedAt: 2022-12-17T16:09:43.290Z
 publishedAt: 2022-12-15T13:56:12.284Z
 searchMeta: "budget funding announcements "
-rawText: " r3 meetings agendas r3 program board agenda 10 27 2022 https r3 icjia
-  api cloud uploads r3agenda10272022 de56a5092f pdf updated at 2022 12 15t14 23
-  32 264z r3 program board agenda 06 16 2022 https r3 icjia api cloud uploads r3
+rawText: " agendas r3 program board agenda 10 27 2022 https r3 icjia api cloud
+  uploads r3agenda10272022 de56a5092f pdf updated at 2022 12 15t14 23 32 264z r3
+  program board agenda 06 16 2022 https r3 icjia api cloud uploads r3
   agenda06162022 c99734beeb pdf updated at 2022 12 15t14 23 32 101z attachments
   06 16 2022 https r3 icjia api cloud uploads attachments1to12 sfy 2023 r3
   funding recommendations board meeting06162022 8d95fe1d06 pdf updated at 2022
@@ -20,7 +20,6 @@ path: /meetings
 url: https://r3dev.icjia.dev/meetings
 ---
 
-# R3 Meetings
 
 ## Agendas
 

@@ -4,19 +4,19 @@ slug: resources
 summary: Information and resource links for R3
 section: root
 createdAt: 2022-12-14T16:58:30.903Z
-updatedAt: 2022-12-15T14:48:05.307Z
+updatedAt: 2022-12-17T16:09:36.963Z
 publishedAt: 2022-12-14T16:58:32.096Z
 searchMeta: null
-rawText: " r3 resources general information spanish r3 factsheet spanish https
-  r3 icjia api cloud uploads r3 factsheet spanish final b8274c0213 pdf updated
-  at 2022 12 15t14 23 31 298z about icjia spanish https r3 icjia api cloud
-  uploads about icjia flyer 2021 spanish 82506d0c15 pdf updated at 2022 12 15t14
-  23 33 741z helpful links r3 nofo instructions and appendices r3 planning
-  capacity building nofo planning capacity building nofo instructions https r3
-  icjia api cloud uploads r3 pcbnofo instructions a257dac61b pdf updated at 2022
-  12 15t14 23 32 990z planning capacity building appendix a https r3 icjia api
-  cloud uploads r3 nofo appendix a b37ee34316 pdf updated at 2022 12 15t14 23 31
-  397z planning capacity building appendix b https r3 icjia api cloud uploads r3
+rawText: " general information spanish r3 factsheet spanish https r3 icjia api
+  cloud uploads r3 factsheet spanish final b8274c0213 pdf updated at 2022 12
+  15t14 23 31 298z about icjia spanish https r3 icjia api cloud uploads about
+  icjia flyer 2021 spanish 82506d0c15 pdf updated at 2022 12 15t14 23 33 741z
+  helpful links r3 nofo instructions and appendices r3 planning capacity
+  building nofo planning capacity building nofo instructions https r3 icjia api
+  cloud uploads r3 pcbnofo instructions a257dac61b pdf updated at 2022 12 15t14
+  23 32 990z planning capacity building appendix a https r3 icjia api cloud
+  uploads r3 nofo appendix a b37ee34316 pdf updated at 2022 12 15t14 23 31 397z
+  planning capacity building appendix b https r3 icjia api cloud uploads r3
   sdnofo appendix b b404dc6530 pdf updated at 2022 12 15t14 23 30 707z planning
   capacity building appendix c https r3 icjia api cloud uploads r3 pcbnofo
   appendix c 1874580939 pdf updated at 2022 12 15t14 23 30 448z "
@@ -25,8 +25,6 @@ navigation: true
 path: /resources
 url: https://r3dev.icjia.dev/resources
 ---
-
-# R3 Resources
 
 ## General Information (Spanish)
 

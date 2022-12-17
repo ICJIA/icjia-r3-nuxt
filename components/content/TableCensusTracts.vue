@@ -1,5 +1,34 @@
 <template>
   <div>
+    <v-container fluid style="margin: 0; padding: 0" class="mb-10">
+      <v-row>
+        <v-col sm="12" md="6">
+          <div style="font-size: 11px">
+            Download:
+
+            <a
+              class="heavy"
+              target="_blank"
+              href="https://r3.icjia-api.cloud/uploads/Eligible_Areas_Census_Tracts_YR_2_a7855e7842.json?updated_at=2022-12-15T14:23:33.560Z"
+              >JSON</a
+            >&nbsp;|&nbsp;<a
+              class="heavy"
+              target="_blank"
+              href="https://r3.icjia-api.cloud/uploads/Eligible_Areas_Census_Tracts_YR_2_b97ecf8e08.csv?updated_at=2022-12-15T14:23:30.247Z"
+              >CSV</a
+            >
+          </div>
+        </v-col>
+        <v-col sm="12" md="6">
+          <div
+            class="text-right"
+            style="font-size: 11px; color: #222; font-weight: 900"
+          >
+            Last updated: 12/21/2021
+          </div>
+        </v-col>
+      </v-row>
+    </v-container>
     <div id="doublescroll" style="overflow-x: auto">
       <table id="example" class="display" style="font-size: 12px; width: 100%">
         <thead>

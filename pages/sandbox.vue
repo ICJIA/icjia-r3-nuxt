@@ -1,6 +1,6 @@
 <template>
   <div>
-    <table-census-tracts></table-census-tracts>
+    <map-census-tracts></map-census-tracts>
   </div>
 </template>
 
