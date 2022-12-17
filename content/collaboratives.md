@@ -10,15 +10,15 @@ summary: A collaborative is a group that includes multiple partner organizations
   same population.
 section: root
 createdAt: 2022-12-14T16:49:43.345Z
-updatedAt: 2022-12-15T18:33:40.630Z
+updatedAt: 2022-12-17T16:27:15.066Z
 publishedAt: 2022-12-14T16:49:45.010Z
 searchMeta: null
-rawText: " collaboratives collaboratives are groups of two or more organizations
-  that apply for funding for a single program under one application the
-  application must be submitted by a single organization which assumes the
-  responsibility for submitting the application on behalf of the entire
-  collaborative the responsible applicant must be eligible to receive state
-  funds see prequalification steps resources icjia prequalification steps common
+rawText: "collaboratives are groups of two or more organizations that apply for
+  funding for a single program under one application the application must be
+  submitted by a single organization which assumes the responsibility for
+  submitting the application on behalf of the entire collaborative the
+  responsible applicant must be eligible to receive state funds see
+  prequalification steps resources icjia prequalification steps common
   recipients are a nonprofit organization a local unit of government a tax
   exempt faith based organization a business organization or other community
   organizations single applicants and organizations applying on behalf of a
@@ -46,8 +46,6 @@ navigation: true
 path: /collaboratives
 url: https://r3dev.icjia.dev/collaboratives
 ---
-
-# Collaboratives
 
 Collaboratives are groups of two or more organizations that apply for funding for a single program under one application. The application must be submitted by a single organization, which assumes the responsibility for submitting the application on behalf of the entire collaborative. The responsible applicant must be eligible to receive state funds (see ["Prequalification Steps"](/resources#icjia-prequalification-steps))--common recipients are a nonprofit organization, a local unit of government, a tax-exempt faith-based organization, a business organization, or other community organizations. 
 
