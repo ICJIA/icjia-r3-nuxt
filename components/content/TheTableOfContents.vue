@@ -11,7 +11,7 @@
         style="border: 0px"
         @click="scrollToTop"
       >
-        Navigation
+        {{ props.title }}
       </h2>
       <div v-for="(item, index) in props.data.links" :key="index" class="pl-3">
         <div
@@ -31,7 +31,14 @@
 
 <script setup>
 const props = defineProps({
-  data: Object,
+  data: {
+    type: Object,
+    default: null,
+  },
+  title: {
+    type: String,
+    default: "Navigation",
+  },
 });
 window.onscroll = function () {
   // console.log("scrolling");
@@ -56,6 +63,10 @@ const scrollToTop = () => {
     top: 0,
   });
 };
+
+onUnmounted(() => {
+  window.onscroll = null;
+});
 </script>
 
 <style>
