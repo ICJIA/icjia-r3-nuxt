@@ -3,13 +3,20 @@
     <v-card
       elevation="0"
       class="toc px-5 py-5 markdown-body"
-      style="border-left: 0px solid #eee"
+      style="border-left: 1px solid #eee"
     >
-      <h2>Navigation</h2>
+      <h2
+        id="navigation"
+        class="hover"
+        style="border: 0px"
+        @click="scrollToTop"
+      >
+        Navigation
+      </h2>
       <div v-for="(item, index) in props.data.links" :key="index" class="pl-3">
         <div
           :id="`toc-${item.id}`"
-          class="mb-3 hover toc-item"
+          class="mb-2 hover toc-item"
           @click="scrollTo(item.id)"
         >
           {{ item.text }}
@@ -40,6 +47,13 @@ const scrollTo = (id) => {
       el.getBoundingClientRect().top -
       document.body.getBoundingClientRect().top -
       80,
+  });
+};
+
+const scrollToTop = () => {
+  window.scrollTo({
+    behavior: "smooth",
+    top: 0,
   });
 };
 </script>
