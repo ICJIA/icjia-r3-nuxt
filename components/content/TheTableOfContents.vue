@@ -6,7 +6,7 @@
       style="border-left: 0px solid #eee"
     >
       <h2>Navigation</h2>
-      <div v-for="(item, index) in props.data.links" :key="index">
+      <div v-for="(item, index) in props.data.links" :key="index" class="pl-3">
         <div
           :id="`toc-${item.id}`"
           class="mb-3 hover toc-item"
