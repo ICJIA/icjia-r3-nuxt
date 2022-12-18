@@ -16,7 +16,7 @@
       <div v-for="(item, index) in props.data.links" :key="index" class="pl-3">
         <div
           :id="`toc-${item.id}`"
-          class="mb-2 hover toc-item"
+          class="mb-4 hover toc-item"
           @click="scrollTo(item.id)"
         >
           {{ item.text }}
@@ -41,7 +41,20 @@ const props = defineProps({
   },
 });
 window.onscroll = function () {
-  // console.log("scrolling");
+  const scrollOffset = 80;
+  let scrollPosition =
+    document.documentElement.scrollTop || document.body.scrollTop;
+  scrollPosition = scrollPosition + scrollOffset + 35;
+  const tocItems = document.querySelectorAll(".toc-item");
+  // console.log("scroll position: ", scrollPosition);
+  // if (scrollPosition < 150) {
+  //   tocItems.forEach((toc) => {
+  //     toc.classList.remove("visible");
+  //   });
+  //   console.log("add visible");
+  // } else {
+  //   console.log("remove visible");
+  // }
 };
 
 const scrollTo = (id) => {
@@ -79,6 +92,7 @@ onUnmounted(() => {
 .visible {
   color: #0d4474;
   font-weight: bold;
+  margin-left: 5px;
 }
 
 .anchor {
@@ -109,7 +123,7 @@ onUnmounted(() => {
 }
 
 .toc-item:hover {
-  font-weight: 700;
+  text-decoration: underline;
 }
 
 /* ul.toc-list {
