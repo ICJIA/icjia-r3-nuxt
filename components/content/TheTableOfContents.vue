@@ -1,9 +1,9 @@
 <template>
-  <div class="mt-0">
+  <div>
     <v-card
       elevation="0"
       class="toc px-5 py-5 markdown-body"
-      style="border-left: 1px solid #eee"
+      style="border-left: 0px solid #eee; background: #fafafa"
     >
       <h2
         id="navigation"
