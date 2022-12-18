@@ -5,15 +5,19 @@
       class="toc px-5 py-5 markdown-body"
       style="border-left: 0px solid #eee"
     >
-      <h2>Table of Contents</h2>
+      <h2>Navigation</h2>
       <div v-for="(item, index) in props.data.links" :key="index">
-        <div :id="`toc-${item.id}`" class="mb-3">
+        <div
+          :id="`toc-${item.id}`"
+          class="mb-3 hover toc-item"
+          @click="scrollTo(item.id)"
+        >
           {{ item.text }}
         </div>
       </div>
       <br /><br />
-      Debug:<br />
-      {{ props.data }}
+      <!-- Debug:<br />
+      {{ props.data }} -->
     </v-card>
   </div>
 </template>
@@ -24,6 +28,19 @@ const props = defineProps({
 });
 window.onscroll = function () {
   // console.log("scrolling");
+};
+
+const scrollTo = (id) => {
+  console.log("scrolling to", id);
+  const el = document.querySelector(`#${id}`);
+  console.log("el: ", el);
+  window.scrollTo({
+    behavior: "smooth",
+    top:
+      el.getBoundingClientRect().top -
+      document.body.getBoundingClientRect().top -
+      80,
+  });
 };
 </script>
 
@@ -61,7 +78,16 @@ window.onscroll = function () {
   font-size: 14px !important;
 }
 
-ul.toc-list {
+.toc-item {
+  margin-bottom: 3px;
+  font-size: 14px;
+}
+
+.toc-item:hover {
+  font-weight: 700;
+}
+
+/* ul.toc-list {
   list-style-type: none;
 }
 
@@ -80,17 +106,8 @@ ul.toc-list li:hover {
 
 .tocListItem {
   margin-left: -20px !important;
-}
+} */
 
 /* .tocItem {
 } */
-@media only screen and (max-width: 1024px) {
-  /* .divider {
-    border-left: 0px solid #ccc;
-  } */
-  ul.toc-list li:hover {
-    color: #fff;
-    background: #aaa;
-  }
-}
 </style>
