@@ -35,14 +35,6 @@
                       >mdi-open-in-new</v-icon
                     ></v-btn
                   >
-                  <!-- <v-no-ssr>
-                    <v-btn>
-                      Bottom
-                      <v-tooltip activator="parent" location="bottom"
-                        >Tooltip</v-tooltip
-                      >
-                    </v-btn>
-                  </v-no-ssr> -->
                 </div>
                 <template #placeholder>
                   <div class="d-flex align-center justify-center fill-height">

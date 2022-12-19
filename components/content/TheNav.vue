@@ -49,6 +49,34 @@
         </span>
       </div>
 
+      <div class="hover hidden-md-and-up hidden-xs">
+        <span
+          style="
+            font-weight: 900 !important;
+            font-size: 14px;
+            letter-spacing: 0.004em;
+            font-family: 'Roboto', sans-serif !important;
+          "
+          class="agency app-title"
+          @click="$router.push('/')"
+          ><span>R3</span>&nbsp;&nbsp;RESTORE. REINVEST. RENEW.
+        </span>
+      </div>
+
+      <div class="hover hidden-sm-and-up">
+        <span
+          style="
+            font-weight: 900 !important;
+            font-size: 30px;
+            letter-spacing: 0.004em;
+            font-family: 'Roboto', sans-serif !important;
+          "
+          class="agency app-title"
+          @click="$router.push('/')"
+          ><span>R3</span>
+        </span>
+      </div>
+
       <v-spacer></v-spacer>
       <span v-if="isMounted">
         <span
