@@ -35,6 +35,11 @@
                       >mdi-open-in-new</v-icon
                     ></v-btn
                   >
+                  <!-- <v-tooltip text="Tooltip">
+                    <template #activator="{ props }">
+                      <v-btn v-bind="props">Tooltip</v-btn>
+                    </template>
+                  </v-tooltip> -->
                 </div>
                 <template #placeholder>
                   <div class="d-flex align-center justify-center fill-height">
