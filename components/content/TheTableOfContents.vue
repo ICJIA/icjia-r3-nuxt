@@ -5,18 +5,19 @@
       class="toc px-5 py-5 markdown-body"
       style="border-left: 0px solid #eee; background: #fafafa"
     >
-      <h2
+      <div
         id="navigation"
-        class="hover"
-        style="border: 0px"
+        ref="navigation"
+        class="hover pb-4"
+        style="border: 0px; font-size: 20px; font-weight: bold"
         @click="scrollToTop"
       >
         {{ props.title }}
-      </h2>
+      </div>
       <div v-for="(item, index) in props.data.links" :key="index" class="pl-3">
         <div
           :id="`toc-${item.id}`"
-          class="mb-4 hover toc-item"
+          class="mb-4 hover tocItem"
           @click="scrollTo(item.id)"
         >
           {{ item.text }}
@@ -30,6 +31,7 @@
 </template>
 
 <script setup>
+const navigation = ref(null);
 const props = defineProps({
   data: {
     type: Object,
@@ -40,27 +42,11 @@ const props = defineProps({
     default: "Navigation",
   },
 });
-window.onscroll = function () {
-  const scrollOffset = 80;
-  let scrollPosition =
-    document.documentElement.scrollTop || document.body.scrollTop;
-  scrollPosition = scrollPosition + scrollOffset + 35;
-  const tocItems = document.querySelectorAll(".toc-item");
-  // console.log("scroll position: ", scrollPosition);
-  // if (scrollPosition < 150) {
-  //   tocItems.forEach((toc) => {
-  //     toc.classList.remove("visible");
-  //   });
-  //   console.log("add visible");
-  // } else {
-  //   console.log("remove visible");
-  // }
-};
 
 const scrollTo = (id) => {
-  console.log("scrolling to", id);
+  // console.log("scrolling to", id);
   const el = document.querySelector(`#${id}`);
-  console.log("el: ", el);
+  // console.log("el: ", el);
   window.scrollTo({
     behavior: "smooth",
     top:
@@ -77,6 +63,60 @@ const scrollToTop = () => {
   });
 };
 
+onMounted(() => {
+  const scrollOffset = 100;
+  const toc = [];
+  console.log("mounted toc");
+  const sections = Array.from(document.querySelectorAll("h2"));
+  sections.forEach((section) => {
+    const obj = {};
+    obj.text = section.innerText;
+    obj.id = section.id;
+    toc.push(obj);
+  });
+
+  window.onscroll = () => {
+    let scrollPosition =
+      document.documentElement.scrollTop || document.body.scrollTop;
+    scrollPosition = scrollPosition + scrollOffset + 35;
+    const tocItems = document.querySelectorAll(".tocItem");
+
+    sections.forEach((section) => {
+      if (section.offsetTop <= scrollPosition) {
+        if (tocItems) {
+          tocItems.forEach((toc) => {
+            toc.classList.remove("visible");
+          });
+        }
+
+        const sectionItem = document.getElementById(`toc-${section.id}`);
+        sectionItem.classList.add("visible");
+      }
+    });
+  };
+});
+
+// const observerOptions = {
+//   rootMargin: "10px",
+//   threshold: 1.0,
+// };
+
+// const observer = new IntersectionObserver(observerCallback, observerOptions);
+
+// function observerCallback(entries, observer) {
+//   entries.forEach((entry) => {
+//     if (entry.isIntersecting) {
+//       console.log("entry: ", entry.target, entry.isIntersecting);
+//     }
+//   });
+// }
+// const target = "H2";
+// document.querySelectorAll(target).forEach((i) => {
+//   if (i) {
+//     observer.observe(i);
+//   }
+// });
+
 onUnmounted(() => {
   window.onscroll = null;
 });
@@ -90,9 +130,11 @@ onUnmounted(() => {
 }
 
 .visible {
-  color: #0d4474;
-  font-weight: bold;
-  margin-left: 5px;
+  color: rgb(34, 18, 104);
+  font-weight: 900;
+  margin-left: 2px;
+  border-left: 5px solid #aaa;
+  padding-left: 10px;
 }
 
 .anchor {
@@ -117,12 +159,12 @@ onUnmounted(() => {
   font-size: 14px !important;
 }
 
-.toc-item {
+.tocItem {
   margin-bottom: 3px;
   font-size: 14px;
 }
 
-.toc-item:hover {
+.tocItem:hover {
   text-decoration: underline;
 }
 
