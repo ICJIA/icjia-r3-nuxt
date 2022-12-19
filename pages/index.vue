@@ -24,16 +24,24 @@
                   <div class="nofo-tagline">
                     {{ item.tagline }}
                   </div>
-                  <div>
-                    <v-btn
-                      variant="outlined"
-                      color="white"
-                      class="mt-8 button-href"
-                      target="_blank"
-                      :href="item.externalURL"
-                      >Find out more</v-btn
+
+                  <v-btn
+                    variant="outlined"
+                    color="white"
+                    class="mt-8 button-href"
+                    target="_blank"
+                    :href="item.externalURL"
+                    >Find out more&nbsp;&nbsp;<v-icon right
+                      >mdi-open-in-new</v-icon
+                    ></v-btn
+                  >
+
+                  <!-- <v-btn>
+                    Bottom
+                    <v-tooltip activator="parent" location="bottom"
+                      >Tooltip</v-tooltip
                     >
-                  </div>
+                  </v-btn> -->
                 </div>
                 <template #placeholder>
                   <div class="d-flex align-center justify-center fill-height">
