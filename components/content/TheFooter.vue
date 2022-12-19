@@ -1,6 +1,6 @@
 <template>
   <div>
-    <the-context-footer></the-context-footer>
+    <!-- <the-context-footer></the-context-footer> -->
     <v-footer dark class="" style="margin: 0; padding: 0">
       <v-card
         flat
