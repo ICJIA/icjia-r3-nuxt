@@ -8,7 +8,7 @@
       <div
         id="navigation"
         ref="navigation"
-        class="hover pb-4"
+        class="hover pb-4 navigation-anchor"
         style="border: 0px; font-size: 20px; font-weight: bold"
         @click="scrollToTop"
       >
@@ -81,6 +81,15 @@ onMounted(() => {
     scrollPosition = scrollPosition + scrollOffset + 35;
     const tocItems = document.querySelectorAll(".tocItem");
 
+    if (scrollPosition < 150) {
+      tocItems.forEach((toc) => {
+        toc.classList.remove("visible");
+      });
+      navigation.value.classList.add("visible-anchor");
+    } else {
+      navigation.value.classList.remove("visible-anchor");
+    }
+
     sections.forEach((section) => {
       if (section.offsetTop <= scrollPosition) {
         if (tocItems) {
@@ -88,7 +97,6 @@ onMounted(() => {
             toc.classList.remove("visible");
           });
         }
-
         const sectionItem = document.getElementById(`toc-${section.id}`);
         sectionItem.classList.add("visible");
       }
@@ -139,6 +147,15 @@ onUnmounted(() => {
 
 .anchor {
   padding: 2px 5px 2px 5px;
+}
+
+.visible-anchor {
+  color: rgb(34, 18, 104);
+  font-weight: 900;
+}
+
+.navigation-anchor:hover {
+  text-decoration: underline;
 }
 
 .anchor:hover {
