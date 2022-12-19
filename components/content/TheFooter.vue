@@ -1,6 +1,5 @@
 <template>
   <div>
-    <!-- <the-context-footer></the-context-footer> -->
     <v-footer dark class="" style="margin: 0; padding: 0">
       <v-card
         flat
@@ -9,6 +8,7 @@
         class="text-center markdown-body pb-4"
         style="background: #0e4474"
       >
+        <the-context-footer></the-context-footer>
         <v-container class="mt-0" fill-height>
           <v-row align="center" justify="center">
             <v-col

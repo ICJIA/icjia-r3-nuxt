@@ -16,7 +16,6 @@
           "
           >&nbsp;{{ item.main }}&nbsp;</NuxtLink
         >
-        <!-- <span v-if="menuLength - 1 !== index"> | </span> -->
       </span>
     </div>
   </div>
