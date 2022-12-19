@@ -117,8 +117,18 @@ function doubleScroll(element) {
 
 useHead({
   bodyAttrs: {},
-  link: [],
-  script: [],
+  link: [
+    {
+      rel: "stylesheet",
+      href: "https://cdn.datatables.net/v/dt/dt-1.13.1/b-2.3.3/b-print-2.3.3/fh-3.3.1/r-2.4.0/sb-1.4.0/sp-2.1.0/datatables.min.css",
+    },
+  ],
+  script: [
+    {
+      src: "https://cdn.datatables.net/v/dt/dt-1.13.1/b-2.3.3/b-print-2.3.3/fh-3.3.1/r-2.4.0/sb-1.4.0/sp-2.1.0/datatables.min.js",
+      body: true,
+    },
+  ],
 });
 
 onMounted(() => {
