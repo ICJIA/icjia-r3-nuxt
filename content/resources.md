@@ -1,6 +1,7 @@
 ---
 title: Resources
 slug: resources
+showTableOfContents: false
 summary: Information and resource links for R3
 section: root
 createdAt: 2022-12-14T16:58:30.903Z

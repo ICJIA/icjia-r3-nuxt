@@ -1,6 +1,7 @@
 ---
 title: "Restore, Reinvest, Renew: R3"
 slug: index
+showTableOfContents: false
 summary: R3 grants fund programs in Illinois communities that have been harmed
   by violence, excessive incarceration, and economic disinvestment.
 section: root

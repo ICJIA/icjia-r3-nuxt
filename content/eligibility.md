@@ -1,6 +1,7 @@
 ---
 title: Eligibility
 slug: eligibility
+showTableOfContents: true
 summary: In order to be eligible, organizations must have a DUNS number, a
   SAM.gov account, a Grants.gov account, be in good standing with the Illinois
   Secretary of State, and not be on the state no-pay list (See Prequalification
@@ -11,7 +12,7 @@ summary: In order to be eligible, organizations must have a DUNS number, a
   collaboratives in the R3 program.
 section: root
 createdAt: 2022-12-14T16:18:02.224Z
-updatedAt: 2022-12-17T16:13:51.224Z
+updatedAt: 2022-12-20T14:08:18.765Z
 publishedAt: 2022-12-14T16:18:03.474Z
 searchMeta: null
 rawText: " eligible applicants in order to be eligible organizations must have a

@@ -143,6 +143,7 @@ onUnmounted(() => {
   margin-left: 2px;
   border-left: 5px solid #aaa;
   padding-left: 10px;
+  transition: visibility 0s, opacity 0.5s linear;
 }
 
 .anchor {

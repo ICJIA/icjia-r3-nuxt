@@ -1,6 +1,7 @@
 ---
 title: Funding Opportunities
 slug: apply
+showTableOfContents: false
 summary: This is the summary for funding opportunities
 section: root
 createdAt: 2022-12-15T13:51:12.603Z

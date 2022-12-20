@@ -26,6 +26,7 @@ const query = `query {
         attributes {
           title
           slug
+          showTableOfContents
           summary
           body
           section
@@ -33,6 +34,7 @@ const query = `query {
           updatedAt
           publishedAt
           searchMeta
+          
         }
       }
     }

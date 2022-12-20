@@ -1,6 +1,7 @@
 ---
 title: Board Composition
 slug: board
+showTableOfContents: false
 summary: "R3 board members and additional information "
 section: root
 createdAt: 2022-12-14T17:00:36.663Z

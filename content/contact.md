@@ -1,6 +1,7 @@
 ---
 title: Contact
 slug: contact
+showTableOfContents: false
 summary: This is the summary for contact
 section: root
 createdAt: 2022-12-14T16:18:40.925Z

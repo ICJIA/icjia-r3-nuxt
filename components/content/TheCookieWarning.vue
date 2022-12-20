@@ -1,6 +1,6 @@
 <template>
   <div v-if="showCookiePolicy">
-    <v-bottom-sheet v-model="cookie" persistent hide-overlay width="100%">
+    <v-dialog v-model="cookie" scroll-strategy="none">
       <v-card
         class="px-12 pt-5 pb-10 text-left"
         style="font-weight: 900"
@@ -10,7 +10,7 @@
         <p style="font-size: 16px; color: #fff; font-weight: 300" class="mt-4">
           The Illinois Criminal Justice Information Authority uses cookies and
           related technology to personalize content and perform site analytics.
-          For more information, see our&nbsp;
+          For more information, see our
           <a href="#" style="color: #fff">privacy policy</a>.
         </p>
         <v-card-actions>
@@ -26,7 +26,7 @@
           <v-spacer></v-spacer>
         </v-card-actions>
       </v-card>
-    </v-bottom-sheet>
+    </v-dialog>
   </div>
 </template>
 
@@ -57,3 +57,5 @@ export default {
   },
 };
 </script>
+
+<style lang="scss" scoped></style>
