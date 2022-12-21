@@ -4,8 +4,12 @@
   </div>
 </template>
 
-<script>
-export default {};
+<script setup>
+// definePageMeta({
+//   title: "Preview page",
+// });
+const route = ref(useRoute());
+console.dir(route.value);
 </script>
 
 <style lang="scss" scoped></style>
