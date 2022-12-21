@@ -5,10 +5,10 @@
 </template>
 
 <script setup>
-// definePageMeta({
-//   title: "Preview page",
-// });
-const route = ref(useRoute());
+definePageMeta({
+  title: "Preview page",
+});
+const route = useRoute();
 console.dir(route.value);
 </script>
 
