@@ -1,6 +1,8 @@
 ---
 title: State of Illinois Privacy Policy
 slug: privacy
+hideFromSearch: false
+hideFromSitemap: false
 showTableOfContents: true
 summary: Neither the State of Illinois, nor any of its agencies nor any of its
   employees shall be held liable for any improper or incorrect use of the

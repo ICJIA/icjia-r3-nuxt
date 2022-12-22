@@ -7,11 +7,15 @@ const posts = require("../public/posts.json");
 
 const site = [...pages, ...posts];
 
+// eslint-disable-next-line array-callback-return
 const searchIndex = site.map((item) => {
-  const obj = { ...item.attributes };
-  obj.id = item.id;
-  obj.idUnique = uuidv4();
-  return obj;
+  console.log(item.attributes);
+  if (!item.attributes.hideFromSearch) {
+    const obj = { ...item.attributes };
+    obj.id = item.id;
+    obj.idUnique = uuidv4();
+    return obj;
+  }
 });
 
 jsonfile.writeFileSync(
@@ -23,3 +27,5 @@ jsonfile.writeFileSync(
     }
   }
 );
+
+console.log("searchIndex.json created in /assets/json/");

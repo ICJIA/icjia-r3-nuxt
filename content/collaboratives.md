@@ -1,6 +1,8 @@
 ---
 title: Collaboratives
 slug: collaboratives
+hideFromSearch: false
+hideFromSitemap: false
 showTableOfContents: false
 summary: A collaborative is a group that includes multiple partner organizations
   carrying out a single project together. Each member of the collaborative

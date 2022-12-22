@@ -26,6 +26,8 @@ const query = `query {
         attributes {
           title
           slug
+          hideFromSearch
+          hideFromSitemap
           showTableOfContents
           summary
           body
@@ -34,8 +36,6 @@ const query = `query {
           updatedAt
           publishedAt
           searchMeta
-          hideFromSearch
-          hideFromSitemap
           
         }
       }

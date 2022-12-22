@@ -1,6 +1,8 @@
 ---
 title: Frequently Asked Questions
 slug: faqs
+hideFromSearch: false
+hideFromSitemap: false
 showTableOfContents: true
 summary: R3 frequently asked questions (FAQs)
 section: root

@@ -1,6 +1,8 @@
 ---
 title: Meetings
 slug: meetings
+hideFromSearch: false
+hideFromSitemap: false
 showTableOfContents: false
 summary: R3 meetings
 section: root

@@ -1,6 +1,8 @@
 ---
 title: Funding Opportunities
 slug: apply
+hideFromSearch: false
+hideFromSitemap: false
 showTableOfContents: false
 summary: This is the summary for funding opportunities
 section: root

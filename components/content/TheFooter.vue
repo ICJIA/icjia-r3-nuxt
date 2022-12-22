@@ -47,12 +47,9 @@
                 </strong>
                 &nbsp;|&nbsp;
                 <strong>
-                  <a
-                    href="https://www.illinois.gov/about/privacy.html"
-                    target="_blank"
-                    style="color: #fff"
+                  <nuxt-link to="/privacy" style="color: #fff"
                     >Privacy
-                  </a>
+                  </nuxt-link>
                 </strong>
                 &nbsp;|&nbsp;
                 <nuxt-link to="/contact" style="color: #fff; background: none"

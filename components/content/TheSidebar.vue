@@ -75,6 +75,10 @@
           <v-icon left icon="mdi-web" size="x-small"></v-icon
           >&nbsp;&nbsp;&nbsp;Translate</v-list-item
         >
+        <v-list-item class="sidebar-item" to="/privacy">
+          <v-icon left icon="mdi-shield-lock-open" size="x-small"></v-icon
+          >&nbsp;&nbsp;&nbsp;Privacy</v-list-item
+        >
       </v-list>
     </v-navigation-drawer>
   </div>

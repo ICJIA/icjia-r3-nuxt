@@ -1,6 +1,8 @@
 ---
 title: Board Composition
 slug: board
+hideFromSearch: false
+hideFromSitemap: false
 showTableOfContents: false
 summary: "R3 board members and additional information "
 section: root

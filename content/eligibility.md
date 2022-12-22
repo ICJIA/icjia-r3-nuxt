@@ -1,6 +1,8 @@
 ---
 title: Eligibility
 slug: eligibility
+hideFromSearch: false
+hideFromSitemap: false
 showTableOfContents: true
 summary: In order to be eligible, organizations must have a DUNS number, a
   SAM.gov account, a Grants.gov account, be in good standing with the Illinois

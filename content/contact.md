@@ -1,6 +1,8 @@
 ---
 title: Contact
 slug: contact
+hideFromSearch: false
+hideFromSitemap: false
 showTableOfContents: false
 summary: This is the summary for contact
 section: root

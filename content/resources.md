@@ -1,6 +1,8 @@
 ---
 title: Resources
 slug: resources
+hideFromSearch: false
+hideFromSitemap: false
 showTableOfContents: true
 summary: Information and resource links for R3
 section: root
