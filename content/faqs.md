@@ -5,7 +5,7 @@ showTableOfContents: true
 summary: R3 frequently asked questions (FAQs)
 section: root
 createdAt: 2022-12-15T13:36:54.351Z
-updatedAt: 2022-12-20T14:03:38.051Z
+updatedAt: 2022-12-22T14:26:18.436Z
 publishedAt: 2022-12-15T13:36:55.811Z
 searchMeta: FAQ FAQs
 rawText: " r3 grants current round of funding question and answers posting

@@ -6,7 +6,7 @@ summary: R3 grants fund programs in Illinois communities that have been harmed
   by violence, excessive incarceration, and economic disinvestment.
 section: root
 createdAt: 2022-12-14T13:55:39.095Z
-updatedAt: 2022-12-17T00:05:58.926Z
+updatedAt: 2022-12-22T14:26:51.848Z
 publishedAt: 2022-12-14T13:57:03.523Z
 searchMeta: null
 rawText: " r3 restore reinvest renew r3 grants fund programs in illinois

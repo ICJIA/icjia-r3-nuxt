@@ -5,7 +5,7 @@ showTableOfContents: false
 summary: "R3 board members and additional information "
 section: root
 createdAt: 2022-12-14T17:00:36.663Z
-updatedAt: 2022-12-17T16:26:18.223Z
+updatedAt: 2022-12-22T14:24:36.651Z
 publishedAt: 2022-12-14T17:00:37.914Z
 searchMeta: null
 rawText: " download as pdf ex officio office lieutenant governor juliana

@@ -5,7 +5,7 @@ showTableOfContents: false
 summary: R3 meetings
 section: root
 createdAt: 2022-12-15T13:56:11.172Z
-updatedAt: 2022-12-17T16:09:43.290Z
+updatedAt: 2022-12-22T14:26:34.221Z
 publishedAt: 2022-12-15T13:56:12.284Z
 searchMeta: "budget funding announcements "
 rawText: " agendas r3 program board agenda 10 27 2022 https r3 icjia api cloud

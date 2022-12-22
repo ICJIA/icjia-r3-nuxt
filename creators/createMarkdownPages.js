@@ -34,6 +34,8 @@ const query = `query {
           updatedAt
           publishedAt
           searchMeta
+          hideFromSearch
+          hideFromSitemap
           
         }
       }

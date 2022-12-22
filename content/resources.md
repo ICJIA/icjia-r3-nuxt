@@ -1,11 +1,11 @@
 ---
 title: Resources
 slug: resources
-showTableOfContents: false
+showTableOfContents: true
 summary: Information and resource links for R3
 section: root
 createdAt: 2022-12-14T16:58:30.903Z
-updatedAt: 2022-12-17T16:09:36.963Z
+updatedAt: 2022-12-22T14:26:45.178Z
 publishedAt: 2022-12-14T16:58:32.096Z
 searchMeta: null
 rawText: " general information spanish r3 factsheet spanish https r3 icjia api

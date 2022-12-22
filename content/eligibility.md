@@ -12,7 +12,7 @@ summary: In order to be eligible, organizations must have a DUNS number, a
   collaboratives in the R3 program.
 section: root
 createdAt: 2022-12-14T16:18:02.224Z
-updatedAt: 2022-12-20T14:08:18.765Z
+updatedAt: 2022-12-22T14:26:09.849Z
 publishedAt: 2022-12-14T16:18:03.474Z
 searchMeta: null
 rawText: " eligible applicants in order to be eligible organizations must have a

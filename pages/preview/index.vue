@@ -9,7 +9,7 @@ definePageMeta({
   title: "Preview page",
 });
 const route = useRoute();
-console.dir(route.value);
+console.dir(route.path);
 </script>
 
 <style lang="scss" scoped></style>

@@ -11,7 +11,7 @@ summary: A collaborative is a group that includes multiple partner organizations
   same population.
 section: root
 createdAt: 2022-12-14T16:49:43.345Z
-updatedAt: 2022-12-17T16:27:15.066Z
+updatedAt: 2022-12-22T14:24:50.023Z
 publishedAt: 2022-12-14T16:49:45.010Z
 searchMeta: null
 rawText: "collaboratives are groups of two or more organizations that apply for
