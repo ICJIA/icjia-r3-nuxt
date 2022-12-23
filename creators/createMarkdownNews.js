@@ -8,7 +8,6 @@ const jsonfile = require("jsonfile");
 const _ = require("lodash");
 
 const yaml = require("yaml");
-const fsExtra = require("fs-extra");
 
 const contentDir = path.join(__dirname, "../content");
 // fsExtra.emptyDirSync(contentDir);
@@ -16,8 +15,6 @@ const contentDir = path.join(__dirname, "../content");
 
 const SITE_URL = process.env.NUXT_PUBLIC_BASE_URL;
 const API = process.env.NUXT_PUBLIC_API_BASE_URL;
-
-const siteContent = [];
 
 const query = `query {
     posts {
@@ -95,34 +92,6 @@ axios
       }
       console.log("posts.json created in /public/");
     });
-
-    // const searchIndex = site.map((post) => {
-    //   const obj = { ...post.attributes };
-    //   obj.id = post.id;
-    //   return obj;
-    // });
-
-    // jsonfile.writeFileSync(
-    //   `./assets/json/searchIndex.json`,
-    //   searchIndex,
-    //   function (err) {
-    //     if (err) {
-    //       console.error(err);
-    //     }
-    //   }
-    // );
-
-    // jsonfile.writeFileSync(
-    //   `./public/siteMeta.json`,
-    //   searchIndex,
-    //   function (err) {
-    //     if (err) {
-    //       console.error(err);
-    //     }
-    //   }
-    // );
-
-    // console.log("site.json created in /public/");
 
     const newsRoutes = site.map((post) => {
       return `/news/${post.attributes.slug}`;

@@ -8,16 +8,11 @@ const jsonfile = require("jsonfile");
 const _ = require("lodash");
 
 const yaml = require("yaml");
-const fsExtra = require("fs-extra");
 
 const contentDir = path.join(__dirname, "../content");
-// fsExtra.emptyDirSync(contentDir);
-// console.log("Content directory cleared");
 
 const SITE_URL = process.env.NUXT_PUBLIC_BASE_URL;
 const API = process.env.NUXT_PUBLIC_API_BASE_URL;
-
-const siteContent = [];
 
 const query = `query {
     pages {
@@ -71,7 +66,7 @@ axios
       rawText = rawText.replace(/\s\s+/g, " ");
       obj.attributes.rawText = rawText.toLowerCase();
       obj.attributes.draft = false;
-      // obj.attributes.description = page.attributes.summary;
+
       obj.attributes.navigation = true;
       if (page.attributes.section !== "root") {
         section = page.attributes.section.toLowerCase();
@@ -90,41 +85,6 @@ axios
       console.log("Markdown content created: ", obj.attributes.path);
       return obj;
     });
-
-    // jsonfile.writeFileSync(`./public/site.json`, site, function (err) {
-    //   if (err) {
-    //     console.error(err);
-    //   }
-    //   console.log("site.json created in /public/");
-    // });
-
-    // const searchIndex = site.map((page) => {
-    //   const obj = { ...page.attributes };
-    //   obj.id = page.id;
-    //   return obj;
-    // });
-
-    // jsonfile.writeFileSync(
-    //   `./assets/json/searchIndex.json`,
-    //   searchIndex,
-    //   function (err) {
-    //     if (err) {
-    //       console.error(err);
-    //     }
-    //   }
-    // );
-
-    // jsonfile.writeFileSync(
-    //   `./public/siteMeta.json`,
-    //   searchIndex,
-    //   function (err) {
-    //     if (err) {
-    //       console.error(err);
-    //     }
-    //   }
-    // );
-
-    // console.log("site.json created in /public/");
 
     const pageRoutes = site.map((item) => {
       return `/${item.attributes.slug}`;
@@ -162,7 +122,6 @@ axios
       }
 
       const content = formatMarkdown(page.attributes);
-      // console.log(content);
       fs.writeFileSync(filePath, content);
     });
   });

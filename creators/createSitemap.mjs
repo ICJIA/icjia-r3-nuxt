@@ -22,4 +22,4 @@ siteIndex.forEach((site) => {
 
 sitemap.end();
 
-console.log("Created: ./public/sitemap.xml");
+console.log("Created: ../public/sitemap.xml");
