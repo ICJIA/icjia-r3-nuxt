@@ -1,11 +1,13 @@
 ---
 title: Test Post 2
 slug: test-post-2
+hideFromSearch: false
+hideFromSitemap: false
 summary: This is the summary for test post 2
 showTableOfContents: false
 section: news
 createdAt: 2022-12-16T13:54:10.238Z
-updatedAt: 2022-12-16T16:55:51.178Z
+updatedAt: 2022-12-23T14:21:16.244Z
 publishedAt: 2022-12-16T13:54:11.344Z
 searchMeta: null
 rawText: " colla videndum quicquam iovis lorem markdownum manus pariter dedere

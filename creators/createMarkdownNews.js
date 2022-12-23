@@ -23,6 +23,8 @@ const query = `query {
         attributes {
           title
           slug
+          hideFromSearch
+          hideFromSitemap
           summary
           body
           showTableOfContents

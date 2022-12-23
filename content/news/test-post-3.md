@@ -1,11 +1,13 @@
 ---
 title: Test Post 3
 slug: test-post-3
+hideFromSearch: false
+hideFromSitemap: false
 summary: This is the summary for test post 3
 showTableOfContents: true
 section: news
 createdAt: 2022-12-16T13:56:55.767Z
-updatedAt: 2022-12-18T16:18:28.102Z
+updatedAt: 2022-12-23T14:21:25.119Z
 publishedAt: 2022-12-16T13:57:01.367Z
 searchMeta: null
 rawText: " pars posses cretaeas lorem markdownum vidisset urbes sidera data

@@ -7,7 +7,6 @@ const posts = require("../public/posts.json");
 
 const site = [...pages, ...posts];
 
-// eslint-disable-next-line array-callback-return
 const searchIndex = site.map((item) => {
   // console.log(item.attributes);
   if (!item.attributes.hideFromSearch) {
@@ -15,7 +14,17 @@ const searchIndex = site.map((item) => {
     obj.id = item.id;
     obj.idUnique = uuidv4();
     return obj;
+  } else {
+    return {};
   }
+});
+
+const siteMeta = site.map((item) => {
+  // console.log(item.attributes);
+  const obj = { ...item.attributes };
+  obj.id = item.id;
+  obj.idUnique = uuidv4();
+  return obj;
 });
 
 jsonfile.writeFileSync(
@@ -27,7 +36,7 @@ jsonfile.writeFileSync(
     }
   }
 );
-jsonfile.writeFileSync(`public/siteMeta.json`, searchIndex, function (err) {
+jsonfile.writeFileSync(`public/siteMeta.json`, siteMeta, function (err) {
   if (err) {
     console.error(err);
   }

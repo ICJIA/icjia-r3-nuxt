@@ -15,9 +15,11 @@ const writeStream = createWriteStream("public/sitemap.xml");
 
 sitemap.pipe(writeStream);
 
-siteIndex.forEach((site) => {
-  const url = `${process.env.NUXT_PUBLIC_BASE_URL}${site.path}`;
-  sitemap.write({ url, changefreq: "weekly", priority: 0.3 });
+siteIndex.forEach((item) => {
+  if (item && !item.hideFromSitemap) {
+    const url = `${process.env.NUXT_PUBLIC_BASE_URL}${item.path}`;
+    sitemap.write({ url, changefreq: "weekly", priority: 0.3 });
+  }
 });
 
 sitemap.end();

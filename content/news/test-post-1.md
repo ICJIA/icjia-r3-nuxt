@@ -1,11 +1,13 @@
 ---
 title: Test Post 1
 slug: test-post-1
+hideFromSearch: false
+hideFromSitemap: false
 summary: This is the summary for test post 1
 showTableOfContents: false
 section: news
 createdAt: 2022-12-16T13:51:23.740Z
-updatedAt: 2022-12-17T03:28:53.155Z
+updatedAt: 2022-12-23T15:01:54.302Z
 publishedAt: 2022-12-16T13:51:25.892Z
 searchMeta: null
 rawText: " etiam sic matre generumque pico aura lorem markdownum suos obscenae
