@@ -11,7 +11,7 @@ const siteIndex = require("../public/siteMeta.json");
 const sitemap = new SitemapStream({
   hostname: `${process.env.NUXT_PUBLIC_BASE_URL}`,
 });
-const writeStream = createWriteStream("./public/sitemap.xml");
+const writeStream = createWriteStream("public/sitemap.xml");
 
 sitemap.pipe(writeStream);
 

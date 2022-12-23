@@ -9,7 +9,7 @@ const site = [...pages, ...posts];
 
 // eslint-disable-next-line array-callback-return
 const searchIndex = site.map((item) => {
-  console.log(item.attributes);
+  // console.log(item.attributes);
   if (!item.attributes.hideFromSearch) {
     const obj = { ...item.attributes };
     obj.id = item.id;
@@ -27,5 +27,11 @@ jsonfile.writeFileSync(
     }
   }
 );
+jsonfile.writeFileSync(`public/siteMeta.json`, searchIndex, function (err) {
+  if (err) {
+    console.error(err);
+  }
+});
 
 console.log("searchIndex.json created in /assets/json/");
+console.log("siteMeta.json created in ../public/siteMeta.json");
