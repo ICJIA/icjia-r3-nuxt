@@ -2,13 +2,14 @@
 title: Test Post 4
 slug: test-post-4
 hideFromSearch: false
+dateOverride: 2022-12-01
 hideFromSitemap: false
 summary: This is the summary for test post 4
 showTableOfContents: true
 section: news
-createdAt: 2022-12-16T19:34:57.100Z
-updatedAt: 2022-12-23T14:21:32.342Z
-publishedAt: 2022-12-16T19:34:58.850Z
+createdAt: 2022-12-01T23:59:59-06:00
+updatedAt: 2022-12-30T15:29:00.530Z
+publishedAt: 2022-12-01T23:59:59-06:00
 searchMeta: null
 rawText: " pars posses cretaeas lorem markdownum vidisset urbes sidera data
   agisque quando ibi celeri moderamen et propioraque sepulcrum arce ignibus

@@ -2,6 +2,7 @@
 title: Test Post 3
 slug: test-post-3
 hideFromSearch: false
+dateOverride: null
 hideFromSitemap: false
 summary: This is the summary for test post 3
 showTableOfContents: true

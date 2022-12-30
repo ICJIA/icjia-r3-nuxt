@@ -1,4 +1,5 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
+
 require("dotenv").config();
 
 const fs = require("fs");
@@ -6,7 +7,7 @@ const path = require("path");
 const axios = require("axios");
 const jsonfile = require("jsonfile");
 const _ = require("lodash");
-
+const moment = require("moment");
 const yaml = require("yaml");
 
 const contentDir = path.join(__dirname, "../content");
@@ -24,6 +25,7 @@ const query = `query {
           title
           slug
           hideFromSearch
+          dateOverride
           hideFromSitemap
           summary
           body
@@ -82,6 +84,15 @@ axios
       if (post.attributes.slug === "index") {
         obj.attributes.path = `/`;
         obj.attributes.url = `${SITE_URL}`;
+      }
+
+      if (post.attributes.dateOverride) {
+        const myDate = moment(post.attributes.dateOverride)
+          .endOf("day")
+          .format("YYYY-MM-DDTHH:mm:ssZ");
+
+        obj.attributes.createdAt = myDate;
+        obj.attributes.publishedAt = myDate;
       }
 
       console.log("Markdown posts content created: ", obj.attributes.path);
