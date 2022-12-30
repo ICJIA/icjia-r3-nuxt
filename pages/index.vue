@@ -126,7 +126,7 @@
                 :key="item.id"
                 elevation="1"
                 class="px-5 py-3 mb-3 info-card"
-                height="250px"
+                height="275px"
                 @click="routeToNews(item)"
               >
                 <div style="font-size: 12px; font-weight: 700">
@@ -142,7 +142,7 @@
                   {{ item.title }}
                 </h3>
                 <p>{{ item.summary }}</p>
-                <v-card-actions>
+                <!-- <v-card-actions>
                   <v-spacer></v-spacer>
 
                   <v-btn
@@ -152,7 +152,7 @@
                     style="font-weight: 900"
                     >Read more&nbsp;&raquo;</v-btn
                   >
-                </v-card-actions>
+                </v-card-actions> -->
               </v-card>
               <div class="text-center mt-10">
                 <nuxt-link to="/news" class="home-link"
