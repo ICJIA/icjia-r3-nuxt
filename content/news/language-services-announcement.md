@@ -1,0 +1,69 @@
+---
+title: Language Services Announcement
+slug: language-services-announcement
+hideFromSearch: false
+dateOverride: 2022-10-13
+hideFromSitemap: false
+summary: The Illinois Criminal Justice Information Authority (ICJIA) complies
+  with applicable federal civil rights laws and does not discriminate based on
+  race, color, national origin, age, disability, gender, or sex.
+showTableOfContents: false
+section: news
+createdAt: 2022-10-13T23:59:59-05:00
+updatedAt: 2022-12-30T18:31:54.740Z
+publishedAt: 2022-10-13T23:59:59-05:00
+searchMeta: null
+rawText: "the illinois criminal justice information authority icjia complies
+  with applicable federal civil rights laws and does not discriminate based on
+  race color national origin age disability gender or sex to support its goals
+  of being inclusive and accessible to all icjia provides free language
+  assistance services to individuals whose primary language is not english
+  language assistance services include providing qualified interpreters and
+  translating documents to ease access to important information about icjia
+  programs benefits and activities these services are available in various
+  languages icjia also provides qualified sign language interpreters to people
+  with disabilities who may need assistance to effectively communicate with us
+  in addition the icjia website allows users to quickly translate its content
+  into multiple languages simply click translate at the top right of the
+  homepage to view the available languages and choose your preferred language if
+  your preferred language does not appear as an option please email icjia at cja
+  laprequests illinois gov for further assistance if you have any questions
+  about the availability of language assistance services or wish to request the
+  use of such services please complete the language assistance services request
+  form located on the icjia website or email your request to icjia at cja
+  laprequests illinois gov additional translation resources language services
+  announcement icjia 9 26 2022 arabic final downloads language services
+  announcement icjia 9 26 2022 arabic final docx language services announcement
+  icjia 9 26 2022 chinese final downloads language services announcement icjia 9
+  26 2022 chinese final docx language services announcement icjia 9 26 2022
+  hindi final downloads language services announcement icjia 9 26 2022 hindi
+  final docx language services announcement icjia 9 26 2022 polish final
+  downloads language services announcement icjia 9 26 2022 polish final docx
+  language services announcement icjia 9 26 2022 spanish final downloads
+  language services announcement icjia 9 26 2022 spanish final docx language
+  services announcement icjia 9 26 2022 tagalog final downloads language
+  services announcement icjia 9 26 2022 tagalog final docx "
+draft: false
+navigation: true
+path: /news/language-services-announcement
+url: https://r3dev.icjia.dev/news/language-services-announcement
+---
+
+The Illinois Criminal Justice Information Authority (ICJIA) complies with applicable federal civil rights laws and does not discriminate based on race, color, national origin, age, disability, gender, or sex.
+
+To support its goals of being inclusive and accessible to all, ICJIA provides free language assistance services to individuals whose primary language is not English. Language assistance services include providing qualified interpreters and translating documents to ease access to important information about ICJIA programs, benefits, and activities. These services are available in various languages.
+
+ICJIA also provides qualified sign language interpreters to people with disabilities who may need assistance to effectively communicate with us.
+
+In addition, the ICJIA website allows users to quickly translate its content into multiple languages. Simply click TRANSLATE at the top right of the homepage to view the available languages and choose your preferred language. If your preferred language does not appear as an option, please email ICJIA at CJA.LAPRequests@illinois.gov for further assistance.
+
+If you have any questions about the availability of language assistance services or wish to request the use of such services, please complete the Language Assistance Services Request Form located on the ICJIA website or email your request to ICJIA at CJA.LAPRequests@illinois.gov.
+
+## Additional Translation Resources
+
+- [Language-Services-Announcement-ICJIA.9.26.2022_Arabic_final](/downloads/Language-Services-Announcement-ICJIA.9.26.2022_Arabic_final.docx)
+- [Language-Services-Announcement-ICJIA.9.26.2022_Chinese_final](/downloads/Language-Services-Announcement-ICJIA.9.26.2022_Chinese_final.docx)
+- [Language-Services-Announcement-ICJIA.9.26.2022_Hindi_final](/downloads/Language-Services-Announcement-ICJIA.9.26.2022_Hindi_final.docx)
+- [Language-Services-Announcement-ICJIA.9.26.2022_Polish_final](/downloads/Language-Services-Announcement-ICJIA.9.26.2022_Polish_final.docx)
+- [Language-Services-Announcement-ICJIA.9.26.2022_Spanish_final](/downloads/Language-Services-Announcement-ICJIA.9.26.2022_Spanish_final.docx)
+- [Language-Services-Announcement-ICJIA.9.26.2022_Tagalog_final](/downloads/Language-Services-Announcement-ICJIA.9.26.2022_Tagalog_final.docx)
